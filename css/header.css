@@ -1,0 +1,79 @@
+header {
+    background-color: rgb(var(--color-primary));
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+
+#logo {
+    position: absolute;
+    width: 256px;
+    top: -5px;
+    left: -50px;
+    background-color: rgb(var(--color-primary));
+    border-bottom-right-radius: 6rem;
+}
+
+.nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#current-page {
+    background-color: rgb(var(--color-secondary));
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+#current-page:hover {
+    border-radius: 2rem;
+}
+
+.nav>li {
+    width: 8rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: .4rem;
+}
+
+.nav-link {
+    color: rgb(var(--font-primary));
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease-in;
+    font-size: 18px;
+    background-color: transparent;
+    transition: all .3s;
+}
+
+.nav-link:visited {
+    color: rgb(var(--font-primary));
+}
+
+#a-header:hover {
+    color: rgb(var(--color-secondary));
+}
+
+.nav-link:hover {
+    color: rgb(var(--font-primary));
+    letter-spacing: 2px;
+}
+
+.nav-link:after {
+    background: none;
+    content: "";
+    background: rgb(var(--color-secondary));
+    bottom: 0;
+    position: absolute;
+    height: 2px;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    display: block;
+    left: 50%;
+    width: 0;
+}
+
+#a-header:hover:after {
+    width: 100%;
+    left: 0;
+}
