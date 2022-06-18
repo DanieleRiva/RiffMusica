@@ -1,3 +1,10 @@
+<?php
+
+require("php/utils/db_connect.php");
+$conn = Connection::Connect("localhost", "root", "", "RiffMusica");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,11 +41,14 @@
     if (in_array($page, $allowed))
         include("php/{$page}.php");
 
-        ?>
+    ?>
+
     <div style="height: 1000px;"></div>
 
     <?php
+
     include("php/footer.php");
+    mysqli_close($conn);
 
     ?>
 

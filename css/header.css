@@ -27,6 +27,8 @@ header {
 
 #current-page:hover {
     border-radius: 2rem;
+    transform: translateY(-4px);
+    filter: saturate(200%);
 }
 
 .nav>li {
@@ -53,10 +55,6 @@ header {
 
 #a-header:hover {
     color: rgb(var(--color-secondary));
-}
-
-.nav-link:hover {
-    color: rgb(var(--font-primary));
     letter-spacing: 2px;
 }
 
