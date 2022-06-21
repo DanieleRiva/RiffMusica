@@ -1,17 +1,50 @@
 header {
     background-color: rgb(var(--color-primary));
     width: 100%;
+    top: 0;
     text-align: center;
     position: fixed;
+    transition: all .3s;
+}
+
+.header-onscroll {
+    top: 30px;
+    background-color: rgba(var(--color-primary), .5);
+    border-top: 1px solid rgba(var(--color-secondary), .5);
+    border-bottom: 1px solid rgba(var(--color-secondary), .5);
+    transition: all .3s;
+}
+
+.header-onscroll:hover {
+    background-color: rgb(var(--color-primary));
+    border-top: 1px solid rgb(var(--color-secondary));
+    border-bottom: 1px solid rgb(var(--color-secondary));
 }
 
 #logo {
     position: absolute;
     width: 256px;
-    top: -5px;
+    top: -4px;
     left: -50px;
     background-color: rgb(var(--color-primary));
     border-bottom-right-radius: 6rem;
+    transition: all .3s;
+}
+
+#logo-onscroll {
+    background-color: rgba(var(--color-primary), 0);
+    position: absolute;
+    width: 256px;
+    transform: scale(.5);
+    left: 50px;
+    opacity: .5;
+
+    transition: all .3s;
+}
+
+#logo-onscroll:hover {
+    opacity: 1;
+    transform: scale(1);
 }
 
 .nav {
@@ -20,19 +53,20 @@ header {
 }
 
 #current-page {
-    background-color: rgb(var(--color-secondary));
+    background-color: rgba(var(--color-secondary), .9);
     text-transform: uppercase;
     transition: all .3s;
 }
 
 #current-page:hover {
+    background-color: rgb(var(--color-secondary));
     border-radius: 2rem;
     transform: translateY(-4px);
     filter: saturate(200%);
 }
 
 .nav>li {
-    width: 8rem;
+    width: 8.5rem;
     text-align: center;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -74,4 +108,8 @@ header {
 #a-header:hover:after {
     width: 100%;
     left: 0;
+}
+
+#header-icon {
+    pointer-events: none;
 }

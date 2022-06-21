@@ -2,3 +2,7 @@ html,
 body {
     background-color: rgb(var(--color-terziary));
 }
+
+#home-title {
+    color: rgb(var(--font-terziary));
+}
