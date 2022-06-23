@@ -2,6 +2,7 @@
 
 require("php/utils/db_connect.php");
 $conn = Connection::Connect("localhost", "root", "", "RiffMusica");
+mysqli_set_charset($conn, "utf8mb4");
 
 ?>
 
@@ -12,6 +13,7 @@ $conn = Connection::Connect("localhost", "root", "", "RiffMusica");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="icon" href="img/header/logo.png">
     <title>Riff Musica</title>
 
@@ -27,6 +29,10 @@ $conn = Connection::Connect("localhost", "root", "", "RiffMusica");
 
     <!-- Transitions JS -->
     <script src="js/transitions.js"></script>
+
+    <!-- Magnify JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnify/2.3.3/js/jquery.magnify.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnify/2.3.3/css/magnify.min.css">
 </head>
 
 <body>
@@ -54,17 +60,18 @@ $conn = Connection::Connect("localhost", "root", "", "RiffMusica");
 
     <?php
     $allowed = [
-        "home",
         "corsi",
         "docenti",
         "media",
         "contatti"
     ];
 
-    $page = isset($_GET["page"]) ? $_GET["page"] : "home";
+    $page = isset($_GET["page"]) ? $_GET["page"] : "index";
 
     if (in_array($page, $allowed))
         include("php/{$page}.php");
+    else
+        include('php/home.php');
 
     ?>
 
@@ -78,6 +85,7 @@ $conn = Connection::Connect("localhost", "root", "", "RiffMusica");
     ?>
 
     <script type="text/javascript">
+        // Ripple effect on mouse click
         function clickEffect(e) {
             var d = document.createElement("div");
 
@@ -122,7 +130,7 @@ $conn = Connection::Connect("localhost", "root", "", "RiffMusica");
 
         // Add the on scroll effect to the header when scrolling
         window.onscroll = function() {
-            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
                 $("#header").addClass("header-onscroll");
                 $("#logo").attr("id", "logo-onscroll");
             } else {
@@ -130,6 +138,30 @@ $conn = Connection::Connect("localhost", "root", "", "RiffMusica");
                 $("#logo-onscroll").attr("id", "logo");
             }
         };
+
+        // Change the separator height according to the header height when the page is loaded or resized
+        // to prevent hiding other elements, since the header is set to position: fixed
+        $(window).ready(function() {
+            resizeHeaderDivider();
+        });
+
+        $(window).resize(function() {
+            resizeHeaderDivider();
+        });
+
+        function resizeHeaderDivider() {
+            var headerHeight = document.getElementById('header').offsetHeight;
+            document.getElementById('header-separator').style.height = (headerHeight * 2) + 10 + "px";
+        }
+
+        // Magnify JS
+        $(document).ready(function() {
+            $('.zoom').magnify({
+                speed: 200,
+                magnifiedWidth: 700,
+                magnifiedHeight: 700
+            });
+        });
     </script>
 </body>
 

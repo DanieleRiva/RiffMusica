@@ -5,6 +5,7 @@ header {
     text-align: center;
     position: fixed;
     transition: all .3s;
+    z-index: 500;
 }
 
 .header-onscroll {

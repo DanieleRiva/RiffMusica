@@ -6,3 +6,68 @@ body {
 #home-title {
     color: rgb(var(--font-terziary));
 }
+
+.posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.post-card {
+    width: auto;
+    height: auto;
+    max-width: 400px;
+    background-color: rgb(var(--color-primary));
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+}
+
+#card-image {
+    height: auto;
+    width: auto;
+    max-width: 400px;
+    max-height: 600px;
+    z-index: 0;
+}
+
+/*  #card-image:hover {
+    transform: scale(1.5);
+    z-index: 1000;
+} */
+
+.card-text {
+    color: rgb(var(--font-terziary));
+    text-align: center;
+    padding: 20px;
+}
+
+#card-title {
+    font-weight: bolder;
+}
+
+#card-description {
+    /* display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden; */
+    margin-top: 20px;
+}
+
+#card-date {
+    background-color: rgb(var(--color-terziary));
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .3;
+    border-radius: 20px;
+    transition: all .3s;
+}
+
+#card-date:hover {
+    opacity: 1;
+    cursor: default;
+}

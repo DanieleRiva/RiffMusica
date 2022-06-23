@@ -9,7 +9,15 @@
 </head>
 
 <body>
-    <h1 id="home-title">Prova home</h1>
+    <!-- <h1 id="home-title">Prova home</h1> -->
+
+    <div class="posts">
+        <?php
+        require "utils/display_posts.php";
+        Posts::displayPost($conn);
+        ?>
+    </div>
+
 </body>
 
 </html>
