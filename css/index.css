@@ -8,6 +8,36 @@ html,
     width: 100%;
 }
 
+html::-webkit-scrollbar {
+    width: 10px;
+    background: rgb(var(--color-primary));
+    opacity: 60%;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 5px;
+    opacity: 60%;
+    transition: all .4s;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background: rgb(var(--color-secondary));
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: rgb(var(--font-secondary));
+    background: rgb(var(--color-secondary));
+    border-radius: 100px;
+}
+
+::selection {
+    color: rgb(var(--font-secondary));
+    background: rgb(var(--color-secondary));
+    border-radius: 100px;
+}
+
 /* a {
     cursor: url("../img/cursors/pointing_hand.cur"), auto;
 } */
