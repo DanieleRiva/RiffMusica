@@ -4,6 +4,8 @@ require("php/utils/db_connect.php");
 $conn = Connection::Connect("localhost", "root", "", "RiffMusica");
 mysqli_set_charset($conn, "utf8mb4");
 
+session_start();
+
 ?>
 
 <!DOCTYPE html>
@@ -23,6 +25,7 @@ mysqli_set_charset($conn, "utf8mb4");
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/registro.css">
 
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -66,7 +69,8 @@ mysqli_set_charset($conn, "utf8mb4");
         "corsi",
         "docenti",
         "media",
-        "contatti"
+        "contatti",
+        "registro"
     ];
 
     $page = isset($_GET["page"]) ? $_GET["page"] : "index";
@@ -78,7 +82,7 @@ mysqli_set_charset($conn, "utf8mb4");
 
     ?>
 
-    <div style="height: 1000px;"></div>
+    <!-- <div style="height: 1000px;"></div> -->
 
     <?php
 
