@@ -20,12 +20,13 @@ session_start();
     <title>Riff Musica</title>
 
     <!-- CSSs -->
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/registro.css">
+    <link rel="stylesheet" href="css/corsi.css">
 
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -39,6 +40,8 @@ session_start();
 
     <!-- Footer social icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 
 <body>
@@ -91,22 +94,39 @@ session_start();
 
     ?>
 
+    <!-- TiltJS -->
+    <script src="js/tilt.jquery.min.js">
+        // TiltJS
+        $('.js-tilt').tilt({
+            maxTilt: 20,
+            perspective: 1000, // Transform perspective, the lower the more extreme the tilt gets.
+            easing: "cubic-bezier(.03,.98,.52,.99)", // Easing on enter/exit.
+            scale: 1.5, // 2 = 200%, 1.5 = 150%, etc..
+            speed: 300, // Speed of the enter/exit transition.
+            transition: true, // Set a transition on enter/exit.
+            disableAxis: null, // What axis should be disabled. Can be X or Y.
+            reset: true, // If the tilt effect has to be reset on exit.
+            glare: true, // Enables glare effect
+            maxGlare: 1 // From 0 - 1.
+        })
+    </script>
+
     <script type="text/javascript">
         // Ripple effect on mouse click
-        function clickEffect(e) {
-            var d = document.createElement("div");
+        // function clickEffect(e) {
+        //     var d = document.createElement("div");
 
-            d.className = "clickEffect";
-            d.style.top = e.clientY + "px";
-            d.style.left = e.clientX + "px";
-            document.body.appendChild(d);
+        //     d.className = "clickEffect";
+        //     d.style.top = e.clientY + "px";
+        //     d.style.left = e.clientX + "px";
+        //     document.body.appendChild(d);
 
-            d.addEventListener('animationend', function() {
-                d.parentElement.removeChild(d);
-            }.bind(this));
-        }
+        //     d.addEventListener('animationend', function() {
+        //         d.parentElement.removeChild(d);
+        //     }.bind(this));
+        // }
 
-        document.addEventListener('click', clickEffect);
+        // document.addEventListener('click', clickEffect);
 
         // Header icons animations controller
         $(".nav-link").hover(function() {
