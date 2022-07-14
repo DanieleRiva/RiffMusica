@@ -15,6 +15,12 @@ function checkUser($conn)
 {
     session_start();
 
+    $sql = "SELECT * FROM Docente WHERE email = {$_SESSION['email']}";
+    
+    "SELECT * FROM Docente WHERE email = danieleriva03@gmail.com; drop table docente;";
+
+    $result = mysqli_query($conn, $sql);
+
     $stmt = $conn->prepare("SELECT * FROM Docente WHERE email = ?");
     $stmt->bind_param('s', $_POST["email"]);
     $stmt->execute();

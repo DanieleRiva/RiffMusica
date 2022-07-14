@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <?php if (isset($_SESSION["idDoc"])) { var_dump($_SESSION) ?>
+    <?php if (isset($_SESSION["idDoc"])) { ?>
 
         <h1>Sei loggato</h1>
         <a href="php/utils/logout.php">Logout</a>

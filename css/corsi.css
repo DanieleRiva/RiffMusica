@@ -98,13 +98,66 @@
     opacity: 1;
 }
 
-/* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 1270px) {
+/* On screens that are 8k or less, set: */
+@media screen and (max-width: 7680px) {
+    .corso {
+        width: 30%;
+        height: 400px;
+    }
 
+    .corso:hover {
+        width: 32%;
+    }
+}
+
+/* On screens that are 4k or less, set: */
+@media screen and (max-width: 4096px) {
+    .corso {
+        width: 30%;
+        height: 300px;
+    }
+
+    .corso:hover {
+        width: 32%;
+    }
+}
+
+/* On screens that are 2k or less, set: */
+@media screen and (max-width: 2560px) {
+    .corso {
+        width: 35%;
+        height: 250px;
+    }
+
+    .corso:hover {
+        width: 37%;
+    }
+}
+
+/* On screens that are 1080p or less, set: */
+@media screen and (max-width: 1920px) {
+    .corso {
+        width: 50%;
+        height: 200px;
+    }
+
+    .corso:hover {
+        width: 52%;
+    }
+}
+
+
+
+/* On screens that are 992px or less, set: */
+@media screen and (max-width: 1270px) {
     .corso {
         width: 90%;
     }
 }
+
+
+
+
 
 /* #corso-chitarra {
     background-image: url("../img/corsi/chitarra/chitarra_cover.gif");
