@@ -1,10 +1,109 @@
 .corsi-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 75px;
-    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.corso {
+    width: 50%;
+    height: 200px;
+    border-radius: 10px;
+    transition: all .3s;
+    margin-bottom: 50px;
+}
+
+.corso:hover,
+.corso:hover>.corso-div {
+    border-radius: 15px;
+}
+
+.corso:hover {
+    text-decoration: none;
+    width: 53%;
+}
+
+.corso:hover {
+    -webkit-box-shadow: 10px 15px 17px 9px rgba(0, 0, 0, 0.71);
+    box-shadow: 10px 15px 17px 9px rgba(0, 0, 0, 0.71);
+}
+
+.corso-div {
+    border-radius: 10px;
+    transition: all .3s;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.corso-div:hover>h1 {
+    font-style: oblique;
+}
+
+#corso-chitarra {
+    background-image: url("../img/corsi/chitarra/chitarra_cover.jpg");
+}
+
+#corso-canto {
+    background-image: url("../img/corsi/canto/canto_cover.jpg");
+}
+
+#corso-basso {
+    background-image: url("../img/corsi/basso/basso_cover.jpg");
+}
+
+#corso-piano {
+    background-image: url("../img/corsi/piano/piano_cover.jpg");
+}
+
+#corso-batteria {
+    background-image: url("../img/corsi/batteria/batteria_cover.jpg");
+}
+
+.corso-text {
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all .3s;
+    background-color: rgba(var(--color-primary), .4);
+    border-top-right-radius: 10px;
+}
+
+.corso-text h1 {
+    display: inline-block;
+}
+
+.corso-div:hover>.corso-text {
+    background-color: rgba(var(--color-primary), .8);
+}
+
+#corso-arrow {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+.corso-div:hover>.corso-text>h1>#corso-arrow {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 1270px) {
+
+    .corso {
+        width: 90%;
+    }
 }
 
 /* #corso-chitarra {
@@ -20,7 +119,7 @@
     vertical-align: bottom;
 } */
 
-.card {
+/* .card {
     background-color: rgb(var(--color-primary));
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -29,7 +128,6 @@
     margin-right: 30px;
     margin-bottom: 100px;
     border: 4px solid rgb(var(--color-primary));
-    /* transition: all .3s; */
 }
 
 .card:hover {
@@ -45,4 +143,4 @@
 .card-body {
     border-top: 4px solid rgba(var(--color-secondary), .5);
     transition: all .3s;
-}
+} */

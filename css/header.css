@@ -37,7 +37,7 @@ header {
     position: absolute;
     width: 256px;
     transform: scale(.5);
-    left: 50px;
+    /* left: 10px; */
     opacity: .5;
 
     transition: all .3s;
@@ -113,4 +113,11 @@ header {
 
 #header-icon {
     pointer-events: none;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 1270px) {
+    #logo, #logo-onscroll {
+        display: none;
+    }
 }
