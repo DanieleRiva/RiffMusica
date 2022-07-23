@@ -46,6 +46,23 @@
         </div>
 
     <?php } ?>
+
+    <script>
+        // Initialise Swal (Popup messages)
+        $(window).ready(function() {
+            Swal.fire({
+                title: 'ATTENZIONE',
+                text: "Stai per accedere all'area riservata ai docenti. Vuoi continuare?",
+                icon: 'warning',
+                confirmButtonText: 'Sì',
+                showDenyButton: true,
+                denyButtonText: 'No'
+            }).then((result) => {
+                if (result.isDenied)
+                    window.location.replace("index.php");
+            })
+        });
+    </script>
 </body>
 
 </html>
