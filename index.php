@@ -27,6 +27,7 @@ session_start();
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/registro.css">
     <link rel="stylesheet" href="css/corsi.css">
+    <link rel="stylesheet" href="css/docenti.css">
 
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -100,7 +101,7 @@ session_start();
     <script src="js/tilt.jquery.min.js">
         // TiltJS
         $('.js-tilt').tilt({
-            maxTilt: 20,
+            maxTilt: 10,
             perspective: 1000, // Transform perspective, the lower the more extreme the tilt gets.
             easing: "cubic-bezier(.03,.98,.52,.99)", // Easing on enter/exit.
             scale: 1.5, // 2 = 200%, 1.5 = 150%, etc..

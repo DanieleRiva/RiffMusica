@@ -11,7 +11,7 @@
 <body>
     <!-- <h1 id="home-title">Prova home</h1> -->
 
-    <div class="search-options">
+    <!-- <div class="search-options">
         <div class="search-box">
             <input type="text" name="search-input" id="search-input" placeholder="Cerca un post...">
             <button id="search-button">🔎</button>
@@ -26,7 +26,7 @@
             <option value="">Tag 5</option>
         </select>
 
-    </div>
+    </div> -->
 
     <div class="posts">
         <?php

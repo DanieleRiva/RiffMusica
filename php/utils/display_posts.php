@@ -14,7 +14,7 @@ class Posts
 
                     <div class="card-text">
                         <h3 id="card-title"><?php echo $row['titolo'] ?></h3>
-                        <!-- <p id="card-description"><?php echo $row['descrizione'] ?></p> -->
+                        <p id="card-description"><?php echo $row['descrizione'] ?></p>
                         <p id="card-date" title="Data di pubblicazione"><?php echo date('d-m-Y', strtotime($row['data'])); ?></p>
                     </div>
                 </div>
