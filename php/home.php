@@ -28,12 +28,14 @@
 
     </div> -->
 
-    <div class="posts">
+    <!-- <div class="posts">
         <?php
-        require "utils/display_posts.php";
-        Posts::displayPost($conn);
+        // require "utils/display_posts.php";
+        // Posts::displayPost($conn);
         ?>
-    </div>
+    </div> -->
+
+    <div class="prova">Sono una prova</div>
 
 </body>
 

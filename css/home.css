@@ -115,3 +115,9 @@ body {
     text-align: center;
     display: inline-block;
 }
+
+.prova {
+    height: 250rem;
+    font-size: 6rem;
+    color: white;
+}

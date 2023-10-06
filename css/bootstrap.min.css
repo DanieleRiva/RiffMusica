@@ -69,13 +69,6 @@
     --bs-maintheme2-1: 246, 60, 29;
     --bs-maintheme2-2: 59, 24, 95;
     --bs-maintheme2-3: 77, 128, 108;*/
-    --color-primary: 34, 40, 49;
-    --color-secondary: 240, 127, 31;
-    --color-terziary: 57, 62, 70;
-    --color-quaternary: 48, 48, 48;
-    --font-primary: 255, 255, 255;
-    --font-secondary: 0, 0, 0;
-    --font-terziary: 255, 255, 255;
 }
 
 .theme-light {

@@ -1,10 +1,10 @@
 <?php
 
-require("php/utils/db_connect.php");
-$conn = Connection::Connect("localhost", "root", "", "RiffMusica");
-mysqli_set_charset($conn, "utf8mb4");
+// require("php/utils/db_connect.php");
+// $conn = Connection::Connect("localhost", "root", "", "RiffMusica");
+// mysqli_set_charset($conn, "utf8mb4");
 
-session_start();
+// session_start();
 
 ?>
 
@@ -45,6 +45,8 @@ session_start();
     <!-- SweetAlert -->
     <!-- <link rel="stylesheet" href="@sweetalert2/themes/dark/dark.css"> -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
 <body>
@@ -93,7 +95,7 @@ session_start();
     <?php
 
     include("php/footer.php");
-    mysqli_close($conn);
+    // mysqli_close($conn);
 
     ?>
 
