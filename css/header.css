@@ -22,64 +22,33 @@ header a {
 
 .menu a span {
     font-size: 2rem;
+    cursor: pointer;
 }
 
-#side-menu {
+.side-menu {
     /* border-left: 2px solid white;
     border-bottom: 2px solid white; */
+    position: fixed;
     margin-left: auto;
     background-color: rgb(var(--color-primary));
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: right;
+    text-align: right;
     width: 80%;
-    display: none;
     right: 0;
     border-bottom-left-radius: 2rem;
+    visibility: hidden;
 }
 
-#side-menu a {
+.side-menu.active {
+    visibility: visible;
+    transition: all 0s;
+}
+
+.side-menu a {
     color: rgb(var(--font-primary));
-}
-
-#ide-menu-open {
-    animation-name: slideinfromleft;
-    animation-duration: 1s;
-}
-
-#side-menu-close {
-    animation-name: slideouttoleft;
-    animation-duration: 1s;
-}
-
-
-@keyframes slideinfromleft {
-    from {
-        visibility: hidden;
-        height: 0;
-        transform: translateX(+100%);
-    }
-
-    to {
-        visibility: visible;
-        height: auto;
-        transform: translateX(0%);
-    }
-}
-
-@keyframes slideouttoleft {
-    from {
-        visibility: visible;
-        height: auto;
-        transform: translateX(0%);
-    }
-
-    to {
-        transform: translateX(+100%);
-        visibility: hidden;
-        height: 0;
-    }
 }
 
 .nav {
@@ -93,7 +62,7 @@ header a {
 #current-page {
     background-color: rgba(var(--color-secondary), .9);
     text-transform: uppercase;
-    transition: all .3s;
+    transition: all .3s, visibility 0s ease-out;
 }
 
 #current-page:hover {
@@ -117,10 +86,9 @@ header a {
     color: rgb(var(--font-primary));
     text-decoration: none;
     position: relative;
-    transition: all 0.3s ease-in;
     font-size: 18px;
     background-color: transparent;
-    transition: all .3s;
+    transition: all .3s, visibility 0s ease-out;
 }
 
 .nav-link:visited {
