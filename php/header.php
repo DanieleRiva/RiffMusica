@@ -21,9 +21,9 @@
             </a>
         </div>
 
-        <div class="menu-wrapper">
+        <div class="menu-wrapper inactive">
 
-            <div class="backdrop" onclick="hamburgerButton()"></div>
+            <!-- <div class="backdrop" onclick="hamburgerButton()"></div> -->
 
             <div class="side-menu">
                 <img id="side-menu-logo" src="img/header/logo.webp" alt="">
@@ -54,6 +54,25 @@
                         </a>
                     </li>
                 </ul>
+
+                <div class="socials" data-aos="slide-down">
+
+                    <a href="https://www.youtube.com/channel/UCWnCmpXYSeja13ZZdfLoPPA/featured" class="social-icon social-icon--youtube" target="_blank">
+                        <i class="fa fa-youtube"></i>
+                        <div class="tooltip">YouTube</div>
+                    </a>
+
+                    <a href="https://www.instagram.com/riff_associazione_musicale/" class="social-icon social-icon--instagram" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                        <div class="tooltip">Instagram</div>
+                    </a>
+
+                    <a href="https://www.facebook.com/riffcassago" class="social-icon social-icon--facebook" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                        <div class="tooltip">Facebook</div>
+                    </a>
+
+                </div>
             </div>
 
         </div>
@@ -109,9 +128,15 @@
             if (hamburgerBtn.textContent.trim() == "menu") {
                 hamburgerBtn.textContent = "close";
                 document.body.style.position = "fixed";
+
+                menu.classList.add("active");
+                menu.classList.remove("inactive");
             } else {
                 hamburgerBtn.textContent = "menu";
                 document.body.style.position = "unset";
+
+                menu.classList.add("inactive");
+                menu.classList.remove("active");
             }
         }
     </script>

@@ -41,10 +41,9 @@ header a {
     flex-direction: row;
     width: 100%;
     height: 100%;
-    visibility: visible;
     margin: 0;
     padding: 0;
-    margin-left: 120%;
+    transition: margin-left .5s ease-in-out;
 }
 
 .side-menu {
@@ -53,7 +52,7 @@ header a {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 80%;
+    width: 100%;
     padding: 0;
 }
 
@@ -64,14 +63,23 @@ header a {
 }
 
 .menu-wrapper.active {
-    visibility: visible;
-    transition: all 0s;
-    animation: slidein 0.5s forwards;
+    margin-left: 0;
+}
+
+.menu-wrapper.inactive {
+    margin-left: 120%;
 }
 
 @keyframes slidein {
     100% {
         margin-left: 0;
+    }
+}
+
+@keyframes slideout {
+    100% {
+        margin-left: 200%;
+        /* visibility: hidden; */
     }
 }
 
@@ -95,6 +103,7 @@ header a {
 
 #current-page:hover {
     background-color: rgb(var(--color-secondary));
+    color: rgb(var(--font-primary));
     border-radius: 2rem;
     transform: translateY(-4px);
     filter: saturate(200%);

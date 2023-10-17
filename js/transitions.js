@@ -1,18 +1,10 @@
 window.onload = () => {
-    // var items = [
-    //     "I nostri corsi sono molto convenienti!",
-    //     "Offriamo ai nostri studenti la possibilità di partecipare a eventi dal vivo",
-    //     "I nostri insegnanti vengono da posti di alta istruzione"
-    // ];
-    // var item = items[Math.floor(Math.random() * items.length)];
-    // document.getElementById("loading-text").textContent = item;
-
     const transitionElement = document.querySelector('.transition1');
     const anchors = document.querySelectorAll('.transition-a');
 
     setTimeout(() => {
         transitionElement.classList.remove('is-active');
-    }, 300);
+    }, 500);
 
 
     for (let i = 0; i < anchors.length; i++) {
