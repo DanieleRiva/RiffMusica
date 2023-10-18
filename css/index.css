@@ -17,6 +17,10 @@ html,
     width: 100%;
 }
 
+html::-webkit-scrollbar {
+    display: none;
+}
+
 html::-webkit-scrollbar-thumb {
     background: #fff;
     border-radius: 5px;
@@ -30,6 +34,7 @@ html::-webkit-scrollbar-thumb:hover {
 
 @media screen and (min-width: 600px) {
     html::-webkit-scrollbar {
+        display: unset;
         visibility: visible;
         width: 10px;
         background: rgb(var(--color-primary));
