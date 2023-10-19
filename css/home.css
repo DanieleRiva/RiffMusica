@@ -3,6 +3,40 @@ body {
     background-color: rgb(var(--color-terziary));
 }
 
+.custom-shape-divider-top-1697735575 {
+    top: 10rem;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1697735575 svg {
+    position: relative;
+    display: block;
+    width: calc(189% + 1.3px);
+    height: 129px;
+}
+
+.custom-shape-divider-top-1697735575 .shape-fill {
+    fill: rgb(var(--color-quaternary))
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #home-title {
     color: rgb(var(--font-terziary));
 }
