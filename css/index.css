@@ -8,6 +8,10 @@
     --font-terziary: 255, 255, 255;
 }
 
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 html,
 #a {
     overflow-x: hidden;

@@ -19,7 +19,9 @@
     <link rel="icon" href="img/header/logo.png">
     <title>Riff Musica</title>
 
-    <!-- CSSs -->
+    <!-- 
+        CSSs
+     -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/header.css">
@@ -29,28 +31,47 @@
     <link rel="stylesheet" href="css/corsi.css">
     <link rel="stylesheet" href="css/docenti.css">
 
-    <!-- jquery -->
+    <!-- 
+        jquery
+     -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <!-- Transitions JS -->
+    <!-- 
+        Transitions JS
+     -->
     <script src="js/transitions.js"></script>
 
-    <!-- Magnify JS -->
+    <!-- 
+        Magnify JS
+     -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnify/2.3.3/js/jquery.magnify.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnify/2.3.3/css/magnify.min.css">
 
-    <!-- Footer social icons -->
+    <!-- 
+        Footer social icons
+     -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- SweetAlert -->
+    <!-- 
+        SweetAlert
+     -->
     <!-- <link rel="stylesheet" href="@sweetalert2/themes/dark/dark.css"> -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- 
+        Google font
+     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- transition screen  -->
+    <!-- 
+        transition screen
+      -->
     <div class="page-transition transition1 is-active">
         <div id="content">
             <img src="img/header/logo.webp" id="loading-logo" alt="">
@@ -94,7 +115,9 @@
 
     ?>
 
-    <!-- TiltJS -->
+    <!-- 
+        TiltJS
+     -->
     <script src="js/tilt.jquery.min.js">
         // TiltJS
         $('.js-tilt').tilt({
@@ -128,6 +151,18 @@
 
         // document.addEventListener('click', clickEffect);
 
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        function myFunction() {
+            if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+                document.getElementById("topbar").classList.add("onscroll");
+            } else {
+                document.getElementById("topbar").classList.remove("onscroll");
+            }
+        }
+
         // Header icons animations controller
         $(".nav-link").hover(function() {
             if ($(this).hasClass("nav-link-home"))
@@ -159,9 +194,11 @@
         window.onscroll = function() {
             if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
                 $("#header").addClass("header-onscroll");
+                $("#topbar").addClass("onscroll");
                 $("#logo").attr("id", "logo-onscroll");
             } else {
                 $("#header").removeClass("header-onscroll");
+                $("#topbar").removeClass("onscroll");
                 $("#logo-onscroll").attr("id", "logo");
             }
         };

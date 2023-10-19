@@ -6,14 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riff Musica - Header</title>
-
-
 </head>
 
 <body>
     <header id="header">
 
-        <div class="topbar">
+        <div class="topbar" id="topbar">
+            <img src="img/header/logo.webp" alt="" srcset="">
             <h1>Riff Musica</h1>
 
             <a onclick="hamburgerButton()">
@@ -113,9 +112,6 @@
         </ul> -->
 
     </header>
-
-
-
 
     <script>
         const menu = document.getElementsByClassName("menu-wrapper")[0];
