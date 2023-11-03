@@ -12,8 +12,8 @@
     <header id="header">
 
         <div class="topbar" id="topbar">
-            <img src="img/header/logo.webp" alt="" srcset="">
-            <h1>Riff Musica</h1>
+            <img id="topbarIcon" src="img/header/logo.webp" alt="" srcset="">
+            <h1></h1>
 
             <a onclick="hamburgerButton()">
                 <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
@@ -116,6 +116,7 @@
     <script>
         const menu = document.getElementsByClassName("menu-wrapper")[0];
         const hamburgerBtn = document.getElementById("hamburger-btn");
+        const topbarLogo = document.getElementById("topbarIcon");
 
         function hamburgerButton() {
             menu.classList.toggle("active");
@@ -125,12 +126,14 @@
                 hamburgerBtn.textContent = "close";
                 document.body.style.position = "fixed";
 
+                topbarLogo.style.visibility = "hidden";
                 menu.classList.add("active");
                 menu.classList.remove("inactive");
             } else {
                 hamburgerBtn.textContent = "menu";
                 document.body.style.position = "unset";
 
+                topbarLogo.style.visibility = "visible";
                 menu.classList.add("inactive");
                 menu.classList.remove("active");
             }
