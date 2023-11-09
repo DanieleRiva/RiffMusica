@@ -10,7 +10,39 @@
 
 <body>
     <div class="section-one" style="height: 20rem;">
-        <h1>Sezione 1</h1>
+        <!-- <h1>Sezione 1</h1> -->
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="img/testImages/lobby.webp">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/testImages/guitar.webp">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/testImages/guitar2.webp">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/testImages/drums.webp">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/testImages/piano.webp">
+                </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
     </div>
 
     <div class="section-two">
@@ -21,6 +53,7 @@
         </div>
 
         <h1>Sezione 2</h1>
+        <div class="spacer"></div>
     </div>
 
     <div class="section-one">
@@ -31,6 +64,7 @@
         </div>
 
         <h1>Sezione 3</h1>
+        <div class="spacer"></div>
     </div>
 
     <div class="section-two">
@@ -41,6 +75,7 @@
         </div>
 
         <h1>Sezione 4</h1>
+        <div class="spacer"></div>
     </div>
 
 
@@ -86,6 +121,29 @@
         ?>
     </div> -->
 
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+    </script>
 </body>
 
 </html>
