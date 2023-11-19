@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="section-one" style="height: 20rem;">
+    <div class="section-one">
         <!-- <h1>Sezione 1</h1> -->
         <!-- Slider main container -->
         <div class="swiper">
@@ -17,19 +17,19 @@
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide">
-                    <img src="img/testImages/lobby.webp">
+                    <img src="img/live/live03.jpg">
                 </div>
                 <div class="swiper-slide">
-                    <img src="img/testImages/guitar.webp">
+                    <img src="img/sedi/sedi05.jpg">
                 </div>
                 <div class="swiper-slide">
-                    <img src="img/testImages/guitar2.webp">
+                    <img src="img/sedi/sedi03.jpg">
                 </div>
                 <div class="swiper-slide">
-                    <img src="img/testImages/drums.webp">
+                    <img src="img/sedi/sedi01.jpg">
                 </div>
                 <div class="swiper-slide">
-                    <img src="img/testImages/piano.webp">
+                    <img src="img/sedi/sedi06.jpg">
                 </div>
             </div>
 
@@ -43,7 +43,11 @@
             <!-- If we need scrollbar -->
             <!-- <div class="swiper-scrollbar"></div> -->
         </div>
+
+        <h1>TEST</h1>
     </div>
+
+
 
     <div class="section-two">
         <div class="custom-shape-divider-top-1697795202">
@@ -126,6 +130,10 @@
             // Optional parameters
             direction: 'horizontal',
             loop: true,
+
+            autoplay: {
+                delay: 5000,
+            },
 
             // If we need pagination
             pagination: {

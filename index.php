@@ -214,10 +214,6 @@
             resizeHeaderDivider();
         });
 
-        $(window).resize(function() {
-            resizeHeaderDivider();
-        });
-
         function resizeHeaderDivider() {
             var headerHeight = document.getElementById('header').offsetHeight;
             document.getElementById('header-separator').style.height = (headerHeight) + "px";

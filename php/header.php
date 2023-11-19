@@ -124,14 +124,16 @@
 
             if (hamburgerBtn.textContent.trim() == "menu") {
                 hamburgerBtn.textContent = "close";
-                document.body.style.position = "fixed";
+                document.body.style.touchAction = "none";
+                // document.body.style.position = "fixed";
 
                 topbarLogo.style.visibility = "hidden";
                 menu.classList.add("active");
                 menu.classList.remove("inactive");
             } else {
                 hamburgerBtn.textContent = "menu";
-                document.body.style.position = "unset";
+                document.body.style.touchAction = "auto";
+                // document.body.style.position = "unset";
 
                 topbarLogo.style.visibility = "visible";
                 menu.classList.add("inactive");
