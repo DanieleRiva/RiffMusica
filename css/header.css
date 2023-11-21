@@ -119,7 +119,7 @@ header a {
     filter: saturate(200%);
 }
 
-.nav>li {
+.nav>li, .custom-btn {
     width: 9rem;
     text-align: center;
     margin-top: .5rem;
@@ -127,6 +127,11 @@ header a {
     margin-left: auto;
     margin-right: auto;
     border-radius: .4rem;
+}
+
+.custom-btn {
+    background-color: rgb(var(--color-secondary));
+    color: red;
 }
 
 .nav-link {

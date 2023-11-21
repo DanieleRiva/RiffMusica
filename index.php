@@ -73,161 +73,167 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 
-<body>
-    <!-- 
+<div class="body-wrapper">
+
+    <body>
+
+        <!-- 
         transition screen
       -->
-    <div class="page-transition transition1 is-active">
-        <div id="content">
-            <img src="img/header/logo.webp" id="loading-logo" alt="">
-            <img src="img/loadingScreen/loading_ring_old.gif" width="64px">
-            <h1 style="color: white; margin-top: 50px; font-size: large" id="loading-text"></h1>
+        <div class="page-transition transition1 is-active">
+            <div id="content">
+                <img src="img/header/logo.webp" id="loading-logo" alt="">
+                <img src="img/loadingScreen/loading_ring_old.gif" width="64px">
+                <h1 style="color: white; margin-top: 50px; font-size: large" id="loading-text"></h1>
+            </div>
         </div>
-    </div>
 
-    <?php
+        <?php
 
-    include("php/header.php");
+        include("php/header.php");
 
-    ?>
+        ?>
 
-    <div id="header-separator" style="background-color: transparent"></div>
+        <div id="header-separator" style="background-color: transparent"></div>
 
-    <?php
-    $allowed = [
-        "corsi",
-        "docenti",
-        "media",
-        "contatti",
-        "registro"
-    ];
+        <?php
+        $allowed = [
+            "corsi",
+            "docenti",
+            "media",
+            "contatti",
+            "registro"
+        ];
 
-    $page = isset($_GET["page"]) ? $_GET["page"] : "index";
+        $page = isset($_GET["page"]) ? $_GET["page"] : "index";
 
-    if (in_array($page, $allowed))
-        include("php/{$page}.php");
-    else
-        include('php/home.php');
+        if (in_array($page, $allowed))
+            include("php/{$page}.php");
+        else
+            include('php/home.php');
 
-    ?>
+        ?>
 
-    <!-- <div style="height: 1000px;"></div> -->
+        <!-- <div style="height: 1000px;"></div> -->
 
-    <?php
+        <?php
 
-    include("php/footer.php");
-    // mysqli_close($conn);
+        include("php/footer.php");
+        // mysqli_close($conn);
 
-    ?>
+        ?>
 
-    <!-- 
+
+
+        <!-- 
         TiltJS
      -->
-    <script src="js/tilt.jquery.min.js">
-        // TiltJS
-        $('.js-tilt').tilt({
-            maxTilt: 10,
-            perspective: 1000, // Transform perspective, the lower the more extreme the tilt gets.
-            easing: "cubic-bezier(.03,.98,.52,.99)", // Easing on enter/exit.
-            scale: 1.5, // 2 = 200%, 1.5 = 150%, etc..
-            speed: 300, // Speed of the enter/exit transition.
-            transition: true, // Set a transition on enter/exit.
-            disableAxis: null, // What axis should be disabled. Can be X or Y.
-            reset: true, // If the tilt effect has to be reset on exit.
-            glare: true, // Enables glare effect
-            maxGlare: 1 // From 0 - 1.
-        })
-    </script>
+        <script src="js/tilt.jquery.min.js">
+            // TiltJS
+            $('.js-tilt').tilt({
+                maxTilt: 10,
+                perspective: 1000, // Transform perspective, the lower the more extreme the tilt gets.
+                easing: "cubic-bezier(.03,.98,.52,.99)", // Easing on enter/exit.
+                scale: 1.5, // 2 = 200%, 1.5 = 150%, etc..
+                speed: 300, // Speed of the enter/exit transition.
+                transition: true, // Set a transition on enter/exit.
+                disableAxis: null, // What axis should be disabled. Can be X or Y.
+                reset: true, // If the tilt effect has to be reset on exit.
+                glare: true, // Enables glare effect
+                maxGlare: 1 // From 0 - 1.
+            })
+        </script>
 
-    <script type="text/javascript">
-        // Ripple effect on mouse click
-        // function clickEffect(e) {
-        //     var d = document.createElement("div");
+        <script type="text/javascript">
+            // Ripple effect on mouse click
+            // function clickEffect(e) {
+            //     var d = document.createElement("div");
 
-        //     d.className = "clickEffect";
-        //     d.style.top = e.clientY + "px";
-        //     d.style.left = e.clientX + "px";
-        //     document.body.appendChild(d);
+            //     d.className = "clickEffect";
+            //     d.style.top = e.clientY + "px";
+            //     d.style.left = e.clientX + "px";
+            //     document.body.appendChild(d);
 
-        //     d.addEventListener('animationend', function() {
-        //         d.parentElement.removeChild(d);
-        //     }.bind(this));
-        // }
+            //     d.addEventListener('animationend', function() {
+            //         d.parentElement.removeChild(d);
+            //     }.bind(this));
+            // }
 
-        // document.addEventListener('click', clickEffect);
+            // document.addEventListener('click', clickEffect);
 
-        window.onscroll = function() {
-            myFunction()
-        };
+            window.onscroll = function() {
+                myFunction()
+            };
 
-        function myFunction() {
-            if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
-                document.getElementById("topbar").classList.add("onscroll");
-            } else {
-                document.getElementById("topbar").classList.remove("onscroll");
+            function myFunction() {
+                if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+                    document.getElementById("topbar").classList.add("onscroll");
+                } else {
+                    document.getElementById("topbar").classList.remove("onscroll");
+                }
             }
-        }
 
-        // Header icons animations controller
-        $(".nav-link").hover(function() {
-            if ($(this).hasClass("nav-link-home"))
-                $(this).children("#header-icon").attr("src", "img/header/icons/animated/home.gif");
-            if ($(this).hasClass("nav-link-corsi"))
-                $(this).children("#header-icon").attr("src", "img/header/icons/animated/corsi.gif");
-            if ($(this).hasClass("nav-link-docenti"))
-                $(this).children("#header-icon").attr("src", "img/header/icons/animated/docenti.gif");
-            if ($(this).hasClass("nav-link-media"))
-                $(this).children("#header-icon").attr("src", "img/header/icons/animated/media.gif");
-            if ($(this).hasClass("nav-link-contatti"))
-                $(this).children("#header-icon").attr("src", "img/header/icons/animated/contatti.gif");
-        }, function() {
-            if ($(this).hasClass("nav-link-home"))
-                $(this).children("#header-icon").attr("src", "img/header/icons/static/home.png");
-            if ($(this).hasClass("nav-link-corsi"))
-                $(this).children("#header-icon").attr("src", "img/header/icons/static/corsi.png");
-            if ($(this).hasClass("nav-link-tour"))
-                $(this).children("#header-icon").removeClass("bx-tad");
-            if ($(this).hasClass("nav-link-docenti"))
-                $(this).children("#header-icon").attr("src", "img/header/icons/static/docenti.png");
-            if ($(this).hasClass("nav-link-media"))
-                $(this).children("#header-icon").attr("src", "img/header/icons/static/media.png");
-            if ($(this).hasClass("nav-link-contatti"))
-                $(this).children("#header-icon").attr("src", "img/header/icons/static/contatti.png");
-        });
-
-        // Add the on scroll effect to the header when scrolling
-        window.onscroll = function() {
-            if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
-                $("#header").addClass("header-onscroll");
-                $("#topbar").addClass("onscroll");
-                $("#logo").attr("id", "logo-onscroll");
-            } else {
-                $("#header").removeClass("header-onscroll");
-                $("#topbar").removeClass("onscroll");
-                $("#logo-onscroll").attr("id", "logo");
-            }
-        };
-
-        // Change the separator height according to the header height when the page is loaded or resized
-        // to prevent hiding other elements, since the header is set to position: fixed
-        $(window).ready(function() {
-            resizeHeaderDivider();
-        });
-
-        function resizeHeaderDivider() {
-            var headerHeight = document.getElementById('header').offsetHeight;
-            document.getElementById('header-separator').style.height = (headerHeight) + "px";
-        }
-
-        // Magnify JS
-        $(document).ready(function() {
-            $('.zoom').magnify({
-                speed: 200,
-                magnifiedWidth: 700,
-                magnifiedHeight: 700
+            // Header icons animations controller
+            $(".icon-animate").hover(function() {
+                if ($(this).hasClass("nav-link-home"))
+                    $(this).children("#header-icon").attr("src", "img/header/icons/animated/home.gif");
+                if ($(this).hasClass("nav-link-corsi"))
+                    $(this).children("#header-icon").attr("src", "img/header/icons/animated/corsi.gif");
+                if ($(this).hasClass("nav-link-docenti"))
+                    $(this).children("#header-icon").attr("src", "img/header/icons/animated/docenti.gif");
+                if ($(this).hasClass("nav-link-media"))
+                    $(this).children("#header-icon").attr("src", "img/header/icons/animated/media.gif");
+                if ($(this).hasClass("nav-link-contatti"))
+                    $(this).children("#header-icon").attr("src", "img/header/icons/animated/contatti.gif");
+            }, function() {
+                if ($(this).hasClass("nav-link-home"))
+                    $(this).children("#header-icon").attr("src", "img/header/icons/static/home.png");
+                if ($(this).hasClass("nav-link-corsi"))
+                    $(this).children("#header-icon").attr("src", "img/header/icons/static/corsi.png");
+                if ($(this).hasClass("nav-link-tour"))
+                    $(this).children("#header-icon").removeClass("bx-tad");
+                if ($(this).hasClass("nav-link-docenti"))
+                    $(this).children("#header-icon").attr("src", "img/header/icons/static/docenti.png");
+                if ($(this).hasClass("nav-link-media"))
+                    $(this).children("#header-icon").attr("src", "img/header/icons/static/media.png");
+                if ($(this).hasClass("nav-link-contatti"))
+                    $(this).children("#header-icon").attr("src", "img/header/icons/static/contatti.png");
             });
-        });
-    </script>
-</body>
+
+            // Add the on scroll effect to the header when scrolling
+            window.onscroll = function() {
+                if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+                    $("#header").addClass("header-onscroll");
+                    $("#topbar").addClass("onscroll");
+                    $("#logo").attr("id", "logo-onscroll");
+                } else {
+                    $("#header").removeClass("header-onscroll");
+                    $("#topbar").removeClass("onscroll");
+                    $("#logo-onscroll").attr("id", "logo");
+                }
+            };
+
+            // Change the separator height according to the header height when the page is loaded or resized
+            // to prevent hiding other elements, since the header is set to position: fixed
+            $(window).ready(function() {
+                resizeHeaderDivider();
+            });
+
+            function resizeHeaderDivider() {
+                var headerHeight = document.getElementById('header').offsetHeight;
+                document.getElementById('header-separator').style.height = (headerHeight) + "px";
+            }
+
+            // Magnify JS
+            $(document).ready(function() {
+                $('.zoom').magnify({
+                    speed: 200,
+                    magnifiedWidth: 700,
+                    magnifiedHeight: 700
+                });
+            });
+        </script>
+    </body>
+</div>
 
 </html>
