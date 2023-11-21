@@ -35,6 +35,16 @@ footer:hover {
     color: rgb(var(--color-secondary));
 }
 
+#phone {
+    text-decoration: none;
+    color: gray;
+    transition: all .3s;
+}
+
+#phone:hover {
+    color: rgb(var(--color-secondary));
+}
+
 .developer-linktree {
     color: gray;
     transition: all .3s;
