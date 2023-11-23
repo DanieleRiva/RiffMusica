@@ -12,10 +12,38 @@
     <header id="header">
 
         <div class="topbar" id="topbar">
-            <a href="index.php"><img id="topbarIcon" src="img/header/logo.webp" alt="" srcset=""></a>
-            <h1></h1>
+            <a id="home-btn" href="index.php"><img id="topbarIcon" src="img/header/logo.webp" alt="" srcset=""></a>
 
-            <a onclick="hamburgerButton()">
+            <div class="horizontal-navbar">
+                <ul class="nav">
+                    <li <?php if (!isset($_GET["page"])) { ?> id="current-page" <?php } ?> onclick="hamburgerButton()">
+                        <a href="index.php" <?php if (isset($_GET["page"]) && $_GET["page"] != "home") { ?> id="a-header" <?php } ?> class="icon-animate nav-link nav-link-home px-2 transition-a">
+                            <img id="header-icon" src="img/header/icons/static/home.png" alt="" width="32px">
+                            Home
+                        </a>
+                    </li>
+                    <li <?php if (isset($_GET["page"]) && $_GET["page"] == "corsi") { ?> id="current-page" <?php } ?> onclick="hamburgerButton()">
+                        <a href="?page=corsi" <?php if (!isset($_GET["page"]) || isset($_GET["page"]) && $_GET["page"] != "corsi") { ?> id="a-header" <?php } ?> class="icon-animate nav-link nav-link-corsi px-2 transition-a">
+                            <img id="header-icon" src="img/header/icons/static/corsi.png" alt="" width="32px">
+                            Corsi
+                        </a>
+                    </li>
+                    <li <?php if (isset($_GET["page"]) && $_GET["page"] == "media") { ?> id="current-page" <?php } ?> onclick="hamburgerButton()">
+                        <a href="?page=media" <?php if (!isset($_GET["page"]) || isset($_GET["page"]) && $_GET["page"] != "media") { ?> id="a-header" <?php } ?> class="icon-animate nav-link nav-link-media px-2 transition-a">
+                            <img id="header-icon" src="img/header/icons/static/media.png" alt="" width="32px">
+                            Media
+                        </a>
+                    </li>
+                    <li <?php if (isset($_GET["page"]) && $_GET["page"] == "contatti") { ?> id="current-page" <?php } ?> onclick="hamburgerButton()">
+                        <a href="?page=contatti" <?php if (!isset($_GET["page"]) || isset($_GET["page"]) && $_GET["page"] != "contatti") { ?> id="a-header" <?php } ?> class="icon-animate nav-link nav-link-contatti px-2 transition-a">
+                            <img id="header-icon" src="img/header/icons/static/contatti.png" alt="" width="32px">
+                            Contatti
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <a id="hamburger-btn-a" onclick="hamburgerButton()">
                 <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
             </a>
         </div>
@@ -54,7 +82,7 @@
                     </li>
                 </ul>
 
-                
+
 
                 <div class="socials" data-aos="slide-down">
 
