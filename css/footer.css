@@ -31,7 +31,8 @@ footer:hover {
     transition: all .3s;
 }
 
-.footer-locations:hover, .developer-linktree:hover {
+.footer-locations:hover,
+.developer-linktree:hover {
     color: rgb(var(--color-secondary));
 }
 
@@ -113,24 +114,13 @@ footer:hover {
     transform: translate(-50%, 100%);
 }
 
-.social-icon--youtube {
+.social-icon--youtube,
+.social-icon--instagram,
+.social-icon--facebook,
+.social-icon--github,
+.social-icon--whatsapp {
     background: #32322C;
     color: white;
-}
-
-.social-icon--instagram {
-    background: #32322C;
-    color: white;
-}
-
-.social-icon--facebook {
-    background: #32322C;
-    color: #fff;
-}
-
-.social-icon--github {
-    background: #32322C;
-    color: #fff;
 }
 
 .social-icon:hover .tooltip {
@@ -149,6 +139,10 @@ footer:hover {
 
 .social-icon--facebook:hover {
     background: #3b5a9b;
+}
+
+.social-icon--whatsapp:hover {
+    background: #128C7E;
 }
 
 .social-icon--github:hover {
@@ -180,6 +174,15 @@ footer:hover {
 
 .social-icon--facebook .tooltip::after {
     border-top-color: #3b5a9b;
+}
+
+.social-icon--whatsapp .tooltip {
+    background: #128C7E;
+    columns: currentColor;
+}
+
+.social-icon--whatsapp .tooltip::after {
+    border-top-color: #128C7E;
 }
 
 .social-icon--github .tooltip {

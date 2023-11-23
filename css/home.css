@@ -60,11 +60,14 @@ body {
 .swiper {
     width: 100%;
     height: 15rem;
+    /* cursor: grab; */
 }
 
 .swiper-slide {
-    object-fit: contain;
-    object-position: center;
+    /* object-fit: contain;
+    object-position: center; */
+    background-size: cover;
+    background-position: center;
 }
 
 .swiper-slide img {
@@ -138,12 +141,16 @@ body {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    border: 1px solid transparent;
+    border: 2px solid rgb(var(--color-terziary));
     transition: all .3s;
 }
 
+.section-one .section-btn {
+    border: 2px solid rgb(var(--color-quaternary));
+}
+
 .section-btn:hover {
-    border: 1px solid rgb(var(--color-secondary));
+    border: 2px solid rgb(var(--color-secondary));
 }
 
 .section-btn img {
@@ -211,6 +218,152 @@ body {
     border-radius: 10%;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+
+
+/* 
+    Media Queries
+*/
+
+@media screen and (min-width: 500px) {
+    .swiper {
+        width: 100%;
+        height: 20rem;
+    }
+
+    .centered p {
+        font-size: 14px;
+    }
+
+    .media {
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    .home-map {
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .swiper {
+        width: 100%;
+        height: 25rem;
+    }
+
+    .centered p {
+        font-size: 14px;
+    }
+
+    .media {
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    .home-map {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .swiper {
+        width: 100%;
+        height: 28rem;
+    }
+
+    .centered p {
+        font-size: 14px;
+    }
+
+    .media {
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    .home-map {
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .swiper {
+        width: 100%;
+        height: 40rem;
+    }
+
+    .section-btn {
+        font-size: 18px;
+    }
+
+    .section-content h1 {
+        font-size: 40px;
+    }
+
+    .centered p {
+        font-size: 17px;
+    }
+
+    .media {
+        margin-top: 30px;
+        width: 60%;
+    }
+
+    .home-map {
+        width: 50%;
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .swiper {
+        width: 100%;
+        height: 45rem;
+    }
+
+    .section-btn {
+        width: 10rem;
+        font-size: 18px;
+    }
+
+    .section-btn img {
+        width: 48px
+    }
+
+    .section-content h1 {
+        font-size: 45px;
+    }
+
+    .centered p {
+        font-size: 19px;
+    }
+
+    .media {
+        margin-top: 30px;
+        width: 60%;
+    }
+
+    .home-map {
+        width: 35%;
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .swiper {
+        width: 100%;
+        height: 47rem;
+    }
+
+    .media {
+        margin-top: 30px;
+        width: 40%;
+    }
+
+    .home-map {
+        width: 35%;
+        height: 450px;
+    }
 }
 
 

@@ -4,7 +4,7 @@ window.onload = () => {
 
     setTimeout(() => {
         transitionElement.classList.remove('is-active');
-    }, 500);
+    }, 100);
 
 
     for (let i = 0; i < anchors.length; i++) {

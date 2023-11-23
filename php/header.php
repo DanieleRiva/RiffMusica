@@ -12,7 +12,7 @@
     <header id="header">
 
         <div class="topbar" id="topbar">
-            <img id="topbarIcon" src="img/header/logo.webp" alt="" srcset="">
+            <a href="index.php"><img id="topbarIcon" src="img/header/logo.webp" alt="" srcset=""></a>
             <h1></h1>
 
             <a onclick="hamburgerButton()">

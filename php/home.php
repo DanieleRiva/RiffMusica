@@ -18,20 +18,20 @@
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
-                    <div class="swiper-slide">
-                        <img src="img/live/live03.jpg">
+                    <div class="swiper-slide" style="background-image: url('img/live/live03.jpg');">
+                        <!-- <img src="img/live/live03.jpg"> -->
                     </div>
-                    <div class="swiper-slide">
-                        <img src="img/sedi/sedi05.jpg">
+                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi05.jpg');">
+                        <!-- <img src="img/sedi/sedi05.jpg"> -->
                     </div>
-                    <div class="swiper-slide">
-                        <img src="img/sedi/sedi03.jpg">
+                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi03.jpg');">
+                        <!-- <img src="img/sedi/sedi03.jpg"> -->
                     </div>
-                    <div class="swiper-slide">
-                        <img src="img/sedi/sedi01.jpg">
+                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi01.jpg');">
+                        <!-- <img src="img/sedi/sedi01.jpg"> -->
                     </div>
-                    <div class="swiper-slide">
-                        <img src="img/sedi/sedi06.jpg">
+                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi06.jpg');">
+                        <!-- <img src="img/sedi/sedi06.jpg"> -->
                     </div>
                 </div>
 
@@ -51,14 +51,14 @@
                     <h1>Associazione <br> Musicale <span style="color: rgb(var(--color-secondary));">RIFF</span> </h1>
                     <p>Ti diamo il benvenuto alla <span style="color: rgb(var(--color-secondary));">RIFF</span>, la nuova scuola di musica nata a Cassago Brianza.</p>
 
-                    <a href="#section-img" id="a-header" class="icon-animate nav-link-home section-btn">
+                    <a href="#section-scroll" id="a-header" class="icon-animate nav-link-home section-btn">
                         Esplora
                     </a>
                 </div>
             </div>
         </div>
 
-        <div class="section-two">
+        <div class="section-two" id="section-scroll">
             <div class="custom-shape-divider-top-1697795202">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
@@ -66,7 +66,7 @@
             </div>
 
             <div class="centered">
-                <img id="section-img" src="img/sedi/sedi14.jpg" alt="" width="256px">
+                <!-- <img id="section-img" src="img/sedi/sedi14.jpg" alt="" width="256px"> -->
 
                 <div class="section-content">
                     <h1>ESPLORA I NOSTRI <span style="color: rgb(var(--color-secondary));">CORSI</span></h1>
@@ -139,7 +139,7 @@
             </div>
 
             <div class="centered">
-                <img id="section-img" src="img/sedi/sedi11.jpg" alt="" width="256px">
+                <!-- <img id="section-img" src="img/sedi/sedi11.jpg" alt="" width="256px"> -->
 
                 <div class="section-content">
                     <h1>ESPLORA I <span style="color: rgb(var(--color-secondary));">MEDIA</span></h1>
@@ -166,9 +166,9 @@
                         <div class="swiper-slide">
                             <img src="img/live/live01.jpg">
                         </div>
-                        <div class="swiper-slide">
+                        <!-- <div class="swiper-slide">
                             <img src="img/sedi/sedi02.jpg">
-                        </div>
+                        </div> -->
                         <div class="swiper-slide">
                             <img src="img/sedi/sedi07.jpg">
                         </div>
@@ -196,18 +196,17 @@
             </div>
 
             <div class="centered">
-                <img id="section-img" src="img/sedi/sedi11.jpg" alt="" width="256px">
+                <!-- <img id="section-img" src="img/sedi/sedi11.jpg" alt="" width="256px"> -->
 
                 <div class="section-content">
                     <h1>I NOSTRI <span style="color: rgb(var(--color-secondary));">CONTATTI</span></h1>
 
                     <p>
-                        Visualizza tutte le foto della nostra associazione.
+                        Visualizza tutti i nostri contatti per chiederci informazioni aggiuntive.
                     </p>
 
                     <p>
-                        Esclusive foto delle nostre sedi ed eventi dal vivo ti aspettano per essere visualizzate,
-                        in modo da poterti ambientare al meglio.
+                        Seguici su Instagram per rimarene aggiornato riguardo le ultime attività.
                     </p>
 
                     <a href="?page=media" id="a-header" class="icon-animate nav-link-contatti section-btn">
@@ -270,6 +269,7 @@
     <script>
         const swiper = new Swiper('.swiper', {
             // Optional parameters
+            grabCursor: true,
             direction: 'horizontal',
             loop: true,
 

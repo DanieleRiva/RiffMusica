@@ -127,6 +127,7 @@ header a {
     margin-left: auto;
     margin-right: auto;
     border-radius: .4rem;
+    border: 2px solid rgb(var(--color-terziary));
 }
 
 .custom-btn {
