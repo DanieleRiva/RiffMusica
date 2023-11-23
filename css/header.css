@@ -105,9 +105,18 @@ header a {
     width: 100%;
 }
 
+.horizontal-navbar {
+    display: none;
+}
+
 .horizontal-navbar .nav {
+    display: none;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.horizontal-navbar .nav>li {
+    display: none;
 }
 
 #current-page {
@@ -187,10 +196,6 @@ header a {
     width: 20%;
 }
 
-.horizontal-navbar {
-    display: none;
-}
-
 /* 
     Media Queries
 */
@@ -201,6 +206,14 @@ header a {
     }
 
     .horizontal-navbar {
+        display: block;
+    }
+    
+    .horizontal-navbar .nav {
+        display: flex;
+    }
+    
+    .horizontal-navbar .nav>li {
         display: block;
     }
 
