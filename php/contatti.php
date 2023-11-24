@@ -10,6 +10,8 @@
 <body>
     <div class="body-wrapper">
 
+        <div class="spacer"></div>
+
         <div class="section-one" id="section-scroll">
 
             <div class="centered">
