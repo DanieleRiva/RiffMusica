@@ -58,7 +58,7 @@
             </div>
         </div>
 
-        <div class="section-two">
+        <div class="section-two" id="section-scroll">
             <div class="custom-shape-divider-top-1697795202">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
@@ -67,7 +67,7 @@
 
             <div class="centered">
                 <div class="section-content">
-                    <h1>PRENOTA ORA LA TUA<br>LEZIONE DI <span style="color: rgb(var(--color-secondary));">PROVA GRATUITA</span> SENZA IMPEGNO</span> </h1>
+                    <h1>PRENOTA ORA LA TUA<br>LEZIONE DI <span style="color: rgb(var(--color-secondary));">PROVA GRATUITA</span> SENZA IMPEGNO</h1>
                     <p>Chiamaci, oppure scrivici su Whatsapp:</p>
 
                     <div class="lezione-gratuita">
@@ -83,7 +83,7 @@
             </div>
         </div>
 
-        <div class="section-one" id="section-scroll">
+        <div class="section-one">
             <div class="custom-shape-divider-top-1697795202">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
