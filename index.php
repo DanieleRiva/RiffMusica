@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="css/registro.css">
     <link rel="stylesheet" href="css/corsi.css">
     <link rel="stylesheet" href="css/docenti.css">
+    <link rel="stylesheet" href="css/contatti.css">
 
     <!-- 
         jquery

@@ -235,34 +235,6 @@ body {
     color: white;
 }
 
-.maps {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-top: 50px;
-}
-
-.map {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    margin-bottom: 30px;
-    width: 300px;
-}
-
-.map p {
-    background-color: rgb(var(--color-primary));
-    padding: 10px;
-    border-radius: 15px;
-    margin: 0;
-}
-
-.map iframe {
-    margin-top: 0;
-    width: 100%;
-}
-
 /* 
     Media Queries
 */
