@@ -51,14 +51,39 @@
                     <h1>Associazione <br> Musicale <span style="color: rgb(var(--color-secondary));">RIFF</span> </h1>
                     <p>Ti diamo il benvenuto alla <span style="color: rgb(var(--color-secondary));">RIFF</span>, la nuova scuola di musica nata a Cassago Brianza.</p>
 
-                    <a href="#section-scroll" id="a-header" class="icon-animate nav-link-home section-btn">
+                    <a href="#section-scroll" id="a-header" class="section-btn">
                         Esplora
                     </a>
                 </div>
             </div>
         </div>
 
-        <div class="section-two" id="section-scroll">
+        <div class="section-two">
+            <div class="custom-shape-divider-top-1697795202">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
+
+            <div class="centered">
+                <div class="section-content">
+                    <h1>PRENOTA ORA LA TUA<br>LEZIONE DI <span style="color: rgb(var(--color-secondary));">PROVA GRATUITA</span> SENZA IMPEGNO</span> </h1>
+                    <p>Chiamaci, oppure scrivici su Whatsapp:</p>
+
+                    <div class="lezione-gratuita">
+                        <!-- <p>Chiamaci: </p> -->
+                        <a id="a-header" class="section-btn" href="tel:+393294686229">3294686229</a>
+                        <!-- <p>Oppure: </p> -->
+                        <a href="https://wa.me/393294686229" class="social-icon social-icon--whatsapp" target="_blank">
+                            <i class="fa fa-whatsapp"></i>
+                            <div class="tooltip">Whatsapp</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-one" id="section-scroll">
             <div class="custom-shape-divider-top-1697795202">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
@@ -131,7 +156,7 @@
 
         </div>
 
-        <div class="section-one">
+        <div class="section-two">
             <div class="custom-shape-divider-top-1697795202">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
@@ -188,7 +213,7 @@
 
         </div>
 
-        <div class="section-two">
+        <div class="section-one">
             <div class="custom-shape-divider-top-1697795202">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>

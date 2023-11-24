@@ -15,8 +15,9 @@
         <p id="footer-p">
             Associazione musicale Riff Musica <br> <br>
             <img src="img/footer/icons/map.png" width="24px"> <span class="footer-title">Le nostre sedi</span> <img src="img/footer/icons/map.png" width="24px"> <br>
-            <a class="footer-locations" target="_blank" href="https://goo.gl/maps/vxVyfvVnR7Lu3P159">Cassago Brianza (LC): Vicolo Cascinetta 10</a> <br>
-            <a class="footer-locations" target="_blank" href="https://goo.gl/maps/Y1F5hBX7MZxs2dFL9">Albese Con Cassano (CO): Strada Vicinale di Nibitt 2</a> <br><br>
+            <a class="footer-locations" target="_blank" href="https://maps.app.goo.gl/heJK2TojUBS6HXGc7">● Cassago Brianza (LC): Vicolo Cascinetta 10</a> <br>
+            <a class="footer-locations" target="_blank" href="https://maps.app.goo.gl/S5D8X6wXqedgURjm8">● Dolzago (LC): Via Corsica, 12A</a> <br>
+            <a class="footer-locations" target="_blank" href="https://maps.app.goo.gl/KZXsEzc9oeDzxjQQ9">● Albese Con Cassano (CO): Strada Vicinale di Nibitt 2</a> <br><br>
             <img src="img/footer/icons/phone.png" width="24px"> <span class="footer-title">Telefono</span> <img src="img/footer/icons/phone.png" width="24px"> <br>
             <a id="phone" href="tel:+393294686229">329 4686 229</a> <br> <br>
             Sito web sviluppato da <a class="developer-linktree" href="https://linktr.ee/danieleriva" target="_blank">Daniele Riva</a> <br>
