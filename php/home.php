@@ -39,8 +39,8 @@
                 <!-- <div class="swiper-pagination"></div> -->
 
                 <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev swiper-button-home"></div>
+                <div class="swiper-button-next swiper-button-home"></div>
 
                 <!-- If we need scrollbar -->
                 <!-- <div class="swiper-scrollbar"></div> -->
@@ -206,8 +206,8 @@
                     </div>
 
                     <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev swiper-button-home"></div>
+                    <div class="swiper-button-next swiper-button-home"></div>
                 </div>
             </div>
 

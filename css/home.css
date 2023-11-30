@@ -75,10 +75,18 @@ body {
     height: auto;
 }
 
-.swiper-button-prev,
-.swiper-button-next {
+.swiper-button-home {
     opacity: 0;
     color: rgb(var(--color-secondary)) !important;
+}
+
+.swiper-button-media {
+    opacity: 1;
+    color: rgb(var(--color-secondary)) !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: rgb(var(--color-secondary)) !important;
 }
 
 .spacer {

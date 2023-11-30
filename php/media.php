@@ -49,8 +49,17 @@
                         </div>
 
                         <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev swiper-button-media"></div>
+                        <div class="swiper-button-next swiper-button-media"></div>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
             </div>
@@ -102,8 +111,18 @@
                         </div>
 
                         <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev swiper-button-media"></div>
+                        <div class="swiper-button-next swiper-button-media"></div>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
             </div>
@@ -139,8 +158,13 @@
                         </div>
 
                         <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev swiper-button-media"></div>
+                        <div class="swiper-button-next swiper-button-media"></div>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
             </div>
@@ -175,6 +199,7 @@
             // And if we need scrollbar
             scrollbar: {
                 el: '.swiper-scrollbar',
+                dynamicBullets: true,
             },
         });
     </script>
