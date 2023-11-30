@@ -16,7 +16,7 @@
 
             <div class="centered">
                 <div class="section-content">
-                    <h1>SALA PROVE</h1>
+                    <h1>SALA <span style="color: rgb(var(--color-secondary));">PROVE</span></h1>
 
                     <div class="swiper media">
                         <!-- Additional required wrapper -->
@@ -66,7 +66,7 @@
 
             <div class="centered">
                 <div class="section-content">
-                    <h1>LE NOSTRE SEDI</h1>
+                    <h1>LE NOSTRE <span style="color: rgb(var(--color-secondary));">SEDI</span></h1>
 
                     <div class="swiper media">
                         <!-- Additional required wrapper -->
@@ -118,7 +118,7 @@
 
             <div class="centered">
                 <div class="section-content">
-                    <h1>EVENTI LIVE</h1>
+                    <h1>EVENTI <span style="color: rgb(var(--color-secondary));">LIVE</span></h1>
 
                     <div class="swiper media">
                         <!-- Additional required wrapper -->
