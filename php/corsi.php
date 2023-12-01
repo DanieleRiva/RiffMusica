@@ -18,10 +18,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && realpath(__FILE__) == realpath($_SERV
 
 <body>
 
-    <?php
-    if (isset($_GET["page"]) && $_GET["page"] = "corsi") { ?>
+    
 
-        <div class="corsi-container">
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="corsi-container">
             <a href="index.php?page=docenti#chitarra" class="corso">
                 <div class="corso-div" id="corso-chitarra">
                     <div class="corso-text">
@@ -63,60 +72,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && realpath(__FILE__) == realpath($_SERV
                     </div>
                 </div>
             </a>
-        </div>
-
-        <!-- <div class="corsi-container">
-            <div class="card js-tilt" data-tilt>
-                <img class="card-img-top" src="img/corsi/chitarra/chitarra_cover.gif" alt="Card image cap">
-                <div class="card-body">
-                    <h1 class="card-text">Chitarra</h1>
-                </div>
-            </div>
-
-            <div class="card js-tilt" data-tilt>
-                <img class="card-img-top" src="img/corsi/chitarra/chitarra_cover.gif" alt="Card image cap">
-                <div class="card-body">
-                    <h1 class="card-text">Chitarra</h1>
-                </div>
-            </div>
-
-            <div class="card js-tilt" data-tilt>
-                <img class="card-img-top" src="img/corsi/chitarra/chitarra_cover.gif" alt="Card image cap">
-                <div class="card-body">
-                    <h1 class="card-text">Chitarra</h1>
-                </div>
-            </div>
-
-            <div class="card js-tilt" data-tilt>
-                <img class="card-img-top" src="img/corsi/chitarra/chitarra_cover.gif" alt="Card image cap">
-                <div class="card-body">
-                    <h1 class="card-text">Chitarra</h1>
-                </div>
-            </div>
-
-            <div class="card js-tilt" data-tilt>
-                <img class="card-img-top" src="img/corsi/chitarra/chitarra_cover.gif" alt="Card image cap">
-                <div class="card-body">
-                    <h1 class="card-text">Chitarra</h1>
-                </div>
-            </div>
         </div> -->
-
-    <?php } else if (isset($_GET["corso"]) && $_GET["corso"] = "chitarra") { ?>
-
-
-    <?php } else if (isset($_GET["corso"]) && $_GET["corso"] = "basso") { ?>
-
-
-    <?php } else if (isset($_GET["corso"]) && $_GET["corso"] = "canto") { ?>
-
-
-    <?php } else if (isset($_GET["corso"]) && $_GET["corso"] = "piano") { ?>
-
-
-    <?php } else if (isset($_GET["corso"]) && $_GET["corso"] = "batteria") {  ?>
-
-    <?php } ?>
 
 </body>
 
