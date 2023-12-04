@@ -16,15 +16,10 @@
 
             <div class="centered">
                 <div class="section-content">
-                    <h1>RESTA SEMPRE <span style="color: rgb(var(--color-secondary));">AGGIORNATO</span></h1>
+                    <h1><span style="color: rgb(var(--color-secondary));">NEWS</span> - RESTA SEMPRE <span style="color: rgb(var(--color-secondary));">AGGIORNATO</span></h1>
                     <p>Seguici sui social per restare a conoscenza di tutti gli ultimi eventi e novità.</p>
 
                     <div class="socials" data-aos="slide-down">
-
-                        <a href="https://www.youtube.com/channel/UCWnCmpXYSeja13ZZdfLoPPA/featured" class="social-icon social-icon--youtube" target="_blank">
-                            <i class="fa fa-youtube"></i>
-                            <div class="tooltip">YouTube</div>
-                        </a>
 
                         <a href="https://www.instagram.com/riff_associazione_musicale/" class="social-icon social-icon--instagram" target="_blank">
                             <i class="fa fa-instagram"></i>

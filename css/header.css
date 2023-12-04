@@ -134,7 +134,7 @@ header a {
 }
 
 .nav>li, .custom-btn {
-    width: 10rem;
+    width: 11.5rem;
     text-align: center;
     margin-top: .5rem;
     margin-bottom: .5rem;
@@ -200,7 +200,7 @@ header a {
     Media Queries
 */
 
-@media screen and (min-width: 1000px) { 
+@media screen and (min-width: 1180px) { 
     #hamburger-btn-a, #home-btn {
         display: none;
     }
@@ -234,7 +234,7 @@ header a {
     }
 
     .nav>li, .custom-btn {
-        width: 9.5rem;
+        width: 12rem;
         text-align: center;
         margin-top: .2rem;
         margin-bottom: .5rem;

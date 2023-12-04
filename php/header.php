@@ -28,6 +28,12 @@
                             Corsi
                         </a>
                     </li>
+                    <li <?php if (isset($_GET["page"]) && $_GET["page"] == "salaprove") { ?> id="current-page" <?php } ?> onclick="hamburgerButton()">
+                        <a href="?page=salaprove" <?php if (!isset($_GET["page"]) || isset($_GET["page"]) && $_GET["page"] != "salaprove") { ?> id="a-header" <?php } ?> class="icon-animate nav-link nav-link-salaprove px-2 transition-a">
+                            <img id="header-icon" src="img/header/icons/static/salaprove.png" alt="" width="32px">
+                            Sala Prove
+                        </a>
+                    </li>
                     <li <?php if (isset($_GET["page"]) && $_GET["page"] == "media") { ?> id="current-page" <?php } ?> onclick="hamburgerButton()">
                         <a href="?page=media" <?php if (!isset($_GET["page"]) || isset($_GET["page"]) && $_GET["page"] != "media") { ?> id="a-header" <?php } ?> class="icon-animate nav-link nav-link-media px-2 transition-a">
                             <img id="header-icon" src="img/header/icons/static/media.png" alt="" width="32px">
@@ -66,6 +72,12 @@
                         <a href="?page=corsi" <?php if (!isset($_GET["page"]) || isset($_GET["page"]) && $_GET["page"] != "corsi") { ?> id="a-header" <?php } ?> class="icon-animate nav-link nav-link-corsi px-2 transition-a">
                             <img id="header-icon" src="img/header/icons/static/corsi.png" alt="" width="32px">
                             Corsi
+                        </a>
+                    </li>
+                    <li <?php if (isset($_GET["page"]) && $_GET["page"] == "salaprove") { ?> id="current-page" <?php } ?> onclick="hamburgerButton()">
+                        <a href="?page=salaprove" <?php if (!isset($_GET["page"]) || isset($_GET["page"]) && $_GET["page"] != "salaprove") { ?> id="a-header" <?php } ?> class="icon-animate nav-link nav-link-salaprove px-2 transition-a">
+                            <img id="header-icon" src="img/header/icons/static/salaprove.png" alt="" width="32px">
+                            Sala Prove
                         </a>
                     </li>
                     <li <?php if (isset($_GET["page"]) && $_GET["page"] == "media") { ?> id="current-page" <?php } ?> onclick="hamburgerButton()">

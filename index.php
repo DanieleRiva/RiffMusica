@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/salaprove.css">
     <link rel="stylesheet" href="css/registro.css">
     <link rel="stylesheet" href="css/corsi.css">
     <link rel="stylesheet" href="css/docenti.css">
@@ -101,6 +102,7 @@
         <?php
         $allowed = [
             "corsi",
+            "salaprove",
             "docenti",
             "media",
             "contatti",
@@ -181,8 +183,8 @@
                     $(this).children("#header-icon").attr("src", "img/header/icons/animated/home.gif");
                 if ($(this).hasClass("nav-link-corsi"))
                     $(this).children("#header-icon").attr("src", "img/header/icons/animated/corsi.gif");
-                if ($(this).hasClass("nav-link-docenti"))
-                    $(this).children("#header-icon").attr("src", "img/header/icons/animated/docenti.gif");
+                if ($(this).hasClass("nav-link-salaprove"))
+                    $(this).children("#header-icon").attr("src", "img/header/icons/animated/salaprove.gif");
                 if ($(this).hasClass("nav-link-media"))
                     $(this).children("#header-icon").attr("src", "img/header/icons/animated/media.gif");
                 if ($(this).hasClass("nav-link-contatti"))
@@ -194,8 +196,8 @@
                     $(this).children("#header-icon").attr("src", "img/header/icons/static/corsi.png");
                 if ($(this).hasClass("nav-link-tour"))
                     $(this).children("#header-icon").removeClass("bx-tad");
-                if ($(this).hasClass("nav-link-docenti"))
-                    $(this).children("#header-icon").attr("src", "img/header/icons/static/docenti.png");
+                if ($(this).hasClass("nav-link-salaprove"))
+                    $(this).children("#header-icon").attr("src", "img/header/icons/static/salaprove.png");
                 if ($(this).hasClass("nav-link-media"))
                     $(this).children("#header-icon").attr("src", "img/header/icons/static/media.png");
                 if ($(this).hasClass("nav-link-contatti"))
