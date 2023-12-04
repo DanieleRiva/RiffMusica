@@ -1,4 +1,61 @@
-.corsi-container {
+.docenti {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.docente {
+    position: relative;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(var(--color-primary));
+    border: 4px solid rgb(var(--color-primary));
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.docente a {
+    text-decoration: none;
+}
+
+.docente img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    transition: all .3s;
+    width: 258px;
+    object-fit: cover;
+    height: 324px;
+    image-rendering: optimizeQuality;
+}
+
+.docente:hover {
+    box-shadow: 10px 15px 17px 9px rgba(0, 0, 0, 0.71);
+    border: 4px solid rgb(var(--color-secondary));
+}
+
+/* .docente:hover>a>img {
+    border-radius: 15px;
+    filter: blur(8px);
+} */
+
+.docente-name {
+    opacity: 1;
+    color: #fff;
+    padding: 1%;
+    font-size: 26px;
+    transition: all .3s;
+}
+
+/* .docente:hover>a>.docente-name {
+    opacity: 1;
+} */
+
+
+/* .corsi-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -153,7 +210,7 @@
     .corso {
         width: 90%;
     }
-}
+} 
 
 
 
