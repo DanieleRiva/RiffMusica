@@ -18,11 +18,12 @@
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
-                    <div class="swiper-slide" style="background-image: url('img/live/live03.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('img/live/live06.jpg');"></div>
                     <div class="swiper-slide" style="background-image: url('img/sedi/sedi05.jpg');"></div>
                     <div class="swiper-slide" style="background-image: url('img/sedi/sedi03.jpg');"></div>
                     <div class="swiper-slide" style="background-image: url('img/sedi/sedi01.jpg');"></div>
-                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi06.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi19.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi10.jpg');"></div>
                 </div>
 
                 <!-- If we need pagination -->
@@ -139,14 +140,14 @@
                                 <span class="material-symbols-outlined">
                                     task_alt
                                 </span>
-                                <p>Lorem Ipsum</p>
+                                <p>Conosci i docenti</p>
                             </div>
 
                             <div class="illustration-text">
                                 <span class="material-symbols-outlined">
                                     task_alt
                                 </span>
-                                <p>Lorem Ipsum</p>
+                                <p>Trova il tuo corso</p>
                             </div>
                         </div>
                     </div>
@@ -159,14 +160,14 @@
                                 <span class="material-symbols-outlined">
                                     task_alt
                                 </span>
-                                <p>Lorem Ipsum</p>
+                                <p>Divertiti</p>
                             </div>
 
                             <div class="illustration-text">
                                 <span class="material-symbols-outlined">
                                     task_alt
                                 </span>
-                                <p>Lorem Ipsum</p>
+                                <p>Impara sempre di più</p>
                             </div>
                         </div>
                     </div>
@@ -259,54 +260,10 @@
                     </a>
                 </div>
 
-                <iframe class="home-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2784.535666769543!2d9.289776976998562!3d45.74040607107981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786a52a385430bf%3A0xa4d5a74b9ec441b1!2sAssociazione%20musicale%20Riff!5e0!3m2!1sit!2sit!4v1700585711034!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="spacer"></div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- <h1 id="home-title">Prova home</h1> -->
-
-        <!-- <div class="search-options">
-        <div class="search-box">
-            <input type="text" name="search-input" id="search-input" placeholder="Cerca un post...">
-            <button id="search-button">🔎</button>
-        </div>
-
-        <select id="search-tag" name="" id="">
-            <option default value="">Tutti</option>
-            <option value="">Tag 1</option>
-            <option value="">Tag 2</option>
-            <option value="">Tag 3</option>
-            <option value="">Tag 4</option>
-            <option value="">Tag 5</option>
-        </select>
-
-    </div> -->
-
-        <!-- <div class="posts">
-        <?php
-        // require "utils/display_posts.php";
-        // Posts::displayPost($conn);
-        ?>
-    </div> -->
 
     </div>
 

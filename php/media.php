@@ -25,7 +25,7 @@
                                 <img src="img/sedi/sedi02.jpg">
                             </div>
                             <div class="swiper-slide">
-                                <img src="img/sedi/sedi06.jpg">
+                                <img src="img/sedi/sedi10.jpg">
                             </div>
                             <div class="swiper-slide">
                                 <img src="img/sedi/sedi07.jpg">
@@ -47,6 +47,9 @@
                             </div>
                             <div class="swiper-slide">
                                 <img src="img/sedi/sedi18.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/sedi/sedi19.jpg">
                             </div>
                         </div>
 
@@ -84,7 +87,7 @@
                         <div class="swiper-wrapper">
                             <!-- Slides -->
                             <div class="swiper-slide">
-                                <img src="img/live/live01.jpg">
+                                <img src="img/live/live06.jpg">
                             </div>
                             <div class="swiper-slide">
                                 <img src="img/live/live02.jpg">
@@ -94,6 +97,12 @@
                             </div>
                             <div class="swiper-slide">
                                 <img src="img/live/live04.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/live/live05.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/live/live01.jpg">
                             </div>
                         </div>
 
@@ -109,9 +118,9 @@
                 </div>
             </div>
 
+            <div class="spacer"></div>
         </div>
 
-        <div class="spacer"></div>
     </div>
 
     <script>
