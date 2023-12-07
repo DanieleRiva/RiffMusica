@@ -90,7 +90,7 @@
         <div class="page-transition transition1 is-active">
             <div id="content">
                 <img src="img/header/logo.webp" id="loading-logo" alt="">
-                <img src="img/loadingScreen/loading_ring_old.gif" width="64px">
+                <img src="img/loadingScreen/loading_ring.gif" width="64px">
                 <h1 style="color: white; margin-top: 50px; font-size: large" id="loading-text"></h1>
             </div>
         </div>
