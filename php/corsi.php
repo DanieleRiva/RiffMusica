@@ -67,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && realpath(__FILE__) == realpath($_SERV
 
                     <div class="docenti">
                         <div class="docente" data-tilt data-tilt-max="8">
-                            <a href="?page=docente&docente=simo">
+                            <a href="?page=docente&docente=simone">
                                 <img src="img/docenti/basso/simo/simo01.webp" alt="">
                                 <div class="docente-name">
                                     Simone
