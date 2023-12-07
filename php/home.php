@@ -18,21 +18,11 @@
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
-                    <div class="swiper-slide" style="background-image: url('img/live/live03.jpg');">
-                        <!-- <img src="img/live/live03.jpg"> -->
-                    </div>
-                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi05.jpg');">
-                        <!-- <img src="img/sedi/sedi05.jpg"> -->
-                    </div>
-                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi03.jpg');">
-                        <!-- <img src="img/sedi/sedi03.jpg"> -->
-                    </div>
-                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi01.jpg');">
-                        <!-- <img src="img/sedi/sedi01.jpg"> -->
-                    </div>
-                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi06.jpg');">
-                        <!-- <img src="img/sedi/sedi06.jpg"> -->
-                    </div>
+                    <div class="swiper-slide" style="background-image: url('img/live/live03.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi05.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi03.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi01.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi06.jpg');"></div>
                 </div>
 
                 <!-- If we need pagination -->

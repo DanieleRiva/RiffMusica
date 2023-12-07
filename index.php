@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="css/salaprove.css">
     <link rel="stylesheet" href="css/registro.css">
     <link rel="stylesheet" href="css/corsi.css">
-    <link rel="stylesheet" href="css/docenti.css">
+    <link rel="stylesheet" href="css/docente.css">
     <link rel="stylesheet" href="css/contatti.css">
 
     <!-- 
@@ -69,6 +69,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- 
+        Google Icons
+    -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- 
         Swiper JS
      -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -102,7 +107,7 @@
         $allowed = [
             "corsi",
             "salaprove",
-            "docenti",
+            "docente",
             "media",
             "contatti",
             "registro"
@@ -125,10 +130,6 @@
         // mysqli_close($conn);
 
         ?>
-
-
-
-        
 
         <script type="text/javascript">
             window.onscroll = function() {

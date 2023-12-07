@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && realpath(__FILE__) == realpath($_SERV
 
                     <div class="docenti">
                         <div class="docente" data-tilt data-tilt-max="8">
-                            <a href="">
+                            <a href="?page=docente&docente=paolo">
                                 <img src="img/docenti/chitarra/paolo/paolo01.jpg" alt="">
                                 <div class="docente-name">
                                     Paolo
@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && realpath(__FILE__) == realpath($_SERV
                         </div>
 
                         <div class="docente" data-tilt data-tilt-max="8">
-                            <a href="">
+                            <a href="?page=docente&docente=aron">
                                 <img src="img/docenti/chitarra/aron/aron01.jpg" alt="">
                                 <div class="docente-name">
                                     Aron
@@ -67,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && realpath(__FILE__) == realpath($_SERV
 
                     <div class="docenti">
                         <div class="docente" data-tilt data-tilt-max="8">
-                            <a href="">
+                            <a href="?page=docente&docente=simo">
                                 <img src="img/docenti/basso/simo/simo01.webp" alt="">
                                 <div class="docente-name">
                                     Simone
@@ -96,7 +96,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && realpath(__FILE__) == realpath($_SERV
 
                     <div class="docenti">
                         <div class="docente" data-tilt data-tilt-max="8">
-                            <a href="">
+                            <a href="?page=docente&docente=ilaria">
                                 <img src="img/docenti/canto/ilaria/ilaria03.jpg" alt="">
                                 <div class="docente-name">
                                     Ilaria
@@ -124,7 +124,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && realpath(__FILE__) == realpath($_SERV
 
                     <div class="docenti">
                         <div class="docente" data-tilt data-tilt-max="8">
-                            <a href="">
+                            <a href="?page=docente&docente=mattia">
                                 <img src="img/docenti/piano/mattia/mattia01.jpg" alt="">
                                 <div class="docente-name">
                                     Mattia
@@ -133,7 +133,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && realpath(__FILE__) == realpath($_SERV
                         </div>
 
                         <div class="docente" data-tilt data-tilt-max="8">
-                            <a href="">
+                            <a href="?page=docente&docente=pietro">
                                 <img style="object-position: left;" src="img/docenti/piano/pietro/pietro01.jpg" alt="">
                                 <div class="docente-name">
                                     Pietro
@@ -161,7 +161,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && realpath(__FILE__) == realpath($_SERV
 
                     <div class="docenti">
                         <div class="docente" data-tilt data-tilt-max="8">
-                            <a href="">
+                            <a href="?page=docente&docente=edo">
                                 <img style="object-position: right;" src="img/docenti/batteria/edo/edo01.jpg" alt="">
                                 <div class="docente-name">
                                     Edo
@@ -170,7 +170,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && realpath(__FILE__) == realpath($_SERV
                         </div>
 
                         <div class="docente" data-tilt data-tilt-max="8">
-                            <a href="">
+                            <a href="?page=docente&docente=christian">
                                 <img src="img/docenti/batteria/christian/christian01.jpg" alt="">
                                 <div class="docente-name">
                                     Christian
@@ -182,67 +182,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && realpath(__FILE__) == realpath($_SERV
             </div>
         </div>
     </div>
-
-
-    <!-- 
-        Chitarra
-        Basso
-        Canto
-        Piano
-        Batteria
-    -->
-
-
-
-
-
-
-
-
-    <!-- <div class="corsi-container">
-            <a href="index.php?page=docenti#chitarra" class="corso">
-                <div class="corso-div" id="corso-chitarra">
-                    <div class="corso-text">
-                        <h1>Chitarra <span id="corso-arrow">❱❱</span></h1>
-                    </div>
-                </div>
-            </a>
-
-            <a href="index.php?page=docenti#basso" class="corso">
-                <div class="corso-div" id="corso-basso">
-                    <div class="corso-text">
-                        <h1>Basso <span id="corso-arrow">❱❱</span></h1>
-                    </div>
-                </div>
-            </a>
-
-            <a href="index.php?page=docenti#canto" class="corso">
-                <div class="corso-div" id="corso-canto">
-                    <div class="corso-text">
-                        <h1>Canto <span id="corso-arrow">❱❱</span></h1>
-                    </div>
-                </div>
-            </a>
-
-            <a href="index.php?page=docenti#piano" class="corso">
-                <div class="corso-div" id="corso-piano">
-                    <div class="corso-text">
-                        <h1>Piano <span id="corso-arrow">❱❱</span></h1>
-                    </div>
-                </div>
-            </a>
-
-            <hr style="height: 5px;">
-
-            <a href="index.php?page=docenti#batteria" class="corso">
-                <div class="corso-div" id="corso-batteria">
-                    <div class="corso-text">
-                        <h1>Batteria <span id="corso-arrow">❱❱</span></h1>
-                    </div>
-                </div>
-            </a>
-        </div> -->
-
 
     <!-- 
         TiltJS

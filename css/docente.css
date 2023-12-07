@@ -1,0 +1,23 @@
+/* .docente-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+
+.docente-info .section-content {
+    text-align: left;
+}
+
+@media screen and (min-width: 1000px) {
+    .docente-info .section-content {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .docente-info .section-content {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+}

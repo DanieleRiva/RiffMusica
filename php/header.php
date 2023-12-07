@@ -22,8 +22,8 @@
                             Home
                         </a>
                     </li>
-                    <li <?php if (isset($_GET["page"]) && $_GET["page"] == "corsi") { ?> id="current-page" <?php } ?> onclick="hamburgerButton()">
-                        <a href="?page=corsi" <?php if (!isset($_GET["page"]) || isset($_GET["page"]) && $_GET["page"] != "corsi") { ?> id="a-header" <?php } ?> class="icon-animate nav-link nav-link-corsi px-2 transition-a">
+                    <li <?php if ((isset($_GET["page"]) && $_GET["page"] == "corsi") || isset($_GET["docente"])) { ?> id="current-page" <?php } ?> onclick="hamburgerButton()">
+                        <a href="?page=corsi" <?php if (!isset($_GET["page"]) || isset($_GET["page"]) && $_GET["page"] != "corsi" && $_GET["page"] != "docente") { ?> id="a-header" <?php } ?> class="icon-animate nav-link nav-link-corsi px-2 transition-a">
                             <img id="header-icon" src="img/header/icons/static/corsi.png" alt="" width="32px">
                             Corsi
                         </a>
@@ -68,8 +68,8 @@
                             Home
                         </a>
                     </li>
-                    <li <?php if (isset($_GET["page"]) && $_GET["page"] == "corsi") { ?> id="current-page" <?php } ?> onclick="hamburgerButton()">
-                        <a href="?page=corsi" <?php if (!isset($_GET["page"]) || isset($_GET["page"]) && $_GET["page"] != "corsi") { ?> id="a-header" <?php } ?> class="icon-animate nav-link nav-link-corsi px-2 transition-a">
+                    <li <?php if ((isset($_GET["page"]) && $_GET["page"] == "corsi") || isset($_GET["docente"])) { ?> id="current-page" <?php } ?> onclick="hamburgerButton()">
+                        <a href="?page=corsi" <?php if (!isset($_GET["page"]) || isset($_GET["page"]) && $_GET["page"] != "corsi" && $_GET["page"] != "docente") { ?> id="a-header" <?php } ?> class="icon-animate nav-link nav-link-corsi px-2 transition-a">
                             <img id="header-icon" src="img/header/icons/static/corsi.png" alt="" width="32px">
                             Corsi
                         </a>
