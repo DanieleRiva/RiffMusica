@@ -182,6 +182,46 @@
                 menu.classList.remove("active");
             }
         }
+
+        // Header icons animations controller
+        $(".icon-animate").hover(function() {
+            if ($(this).hasClass("nav-link-home"))
+                $(this).children("#header-icon").attr("src", "img/header/icons/animated/home.gif");
+            if ($(this).hasClass("nav-link-corsi"))
+                $(this).children("#header-icon").attr("src", "img/header/icons/animated/corsi.gif");
+            if ($(this).hasClass("nav-link-salaprove"))
+                $(this).children("#header-icon").attr("src", "img/header/icons/animated/salaprove.gif");
+            if ($(this).hasClass("nav-link-media"))
+                $(this).children("#header-icon").attr("src", "img/header/icons/animated/media.gif");
+            if ($(this).hasClass("nav-link-contatti"))
+                $(this).children("#header-icon").attr("src", "img/header/icons/animated/contatti.gif");
+        }, function() {
+            if ($(this).hasClass("nav-link-home"))
+                $(this).children("#header-icon").attr("src", "img/header/icons/static/home.png");
+            if ($(this).hasClass("nav-link-corsi"))
+                $(this).children("#header-icon").attr("src", "img/header/icons/static/corsi.png");
+            if ($(this).hasClass("nav-link-tour"))
+                $(this).children("#header-icon").removeClass("bx-tad");
+            if ($(this).hasClass("nav-link-salaprove"))
+                $(this).children("#header-icon").attr("src", "img/header/icons/static/salaprove.png");
+            if ($(this).hasClass("nav-link-media"))
+                $(this).children("#header-icon").attr("src", "img/header/icons/static/media.png");
+            if ($(this).hasClass("nav-link-contatti"))
+                $(this).children("#header-icon").attr("src", "img/header/icons/static/contatti.png");
+        });
+        
+        // Add the on scroll effect to the header when scrolling
+        window.onscroll = function() {
+            if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+                $("#header").addClass("header-onscroll");
+                $("#topbar").addClass("onscroll");
+                $("#logo").attr("id", "logo-onscroll");
+            } else {
+                $("#header").removeClass("header-onscroll");
+                $("#topbar").removeClass("onscroll");
+                $("#logo-onscroll").attr("id", "logo");
+            }
+        };
     </script>
 </body>
 

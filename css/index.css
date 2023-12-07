@@ -19,7 +19,8 @@ html,
     width: 100%;
 }
 
-html, body {
+html,
+body {
     overflow-x: hidden !important;
 }
 
@@ -111,6 +112,8 @@ div.clickEffect {
 
 .page-transition {
     position: fixed;
+    width: 100%;
+    height: 100%;
 }
 
 .transition1 {
@@ -129,8 +132,10 @@ div.clickEffect {
 }
 
 #content {
-    margin-top: 50%;
+    width: 100%;
+    height: 100%;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
 }

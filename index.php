@@ -47,8 +47,8 @@
     <!-- 
         Magnify JS
      -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnify/2.3.3/js/jquery.magnify.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnify/2.3.3/css/magnify.min.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/magnify/2.3.3/js/jquery.magnify.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnify/2.3.3/css/magnify.min.css"> -->
 
     <!-- 
         Footer social icons
@@ -58,9 +58,8 @@
     <!-- 
         SweetAlert
      -->
-    <!-- <link rel="stylesheet" href="@sweetalert2/themes/dark/dark.css"> -->
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" /> -->
 
     <!-- 
         Google font
@@ -129,42 +128,9 @@
 
 
 
-        <!-- 
-        TiltJS
-     -->
-        <script src="js/tilt.jquery.min.js">
-            // TiltJS
-            $('.js-tilt').tilt({
-                maxTilt: 10,
-                perspective: 1000, // Transform perspective, the lower the more extreme the tilt gets.
-                easing: "cubic-bezier(.03,.98,.52,.99)", // Easing on enter/exit.
-                scale: 1.5, // 2 = 200%, 1.5 = 150%, etc..
-                speed: 300, // Speed of the enter/exit transition.
-                transition: true, // Set a transition on enter/exit.
-                disableAxis: null, // What axis should be disabled. Can be X or Y.
-                reset: true, // If the tilt effect has to be reset on exit.
-                glare: true, // Enables glare effect
-                maxGlare: 1 // From 0 - 1.
-            })
-        </script>
+        
 
         <script type="text/javascript">
-            // Ripple effect on mouse click
-            // function clickEffect(e) {
-            //     var d = document.createElement("div");
-
-            //     d.className = "clickEffect";
-            //     d.style.top = e.clientY + "px";
-            //     d.style.left = e.clientX + "px";
-            //     document.body.appendChild(d);
-
-            //     d.addEventListener('animationend', function() {
-            //         d.parentElement.removeChild(d);
-            //     }.bind(this));
-            // }
-
-            // document.addEventListener('click', clickEffect);
-
             window.onscroll = function() {
                 myFunction()
             };
@@ -177,46 +143,6 @@
                 }
             }
 
-            // Header icons animations controller
-            $(".icon-animate").hover(function() {
-                if ($(this).hasClass("nav-link-home"))
-                    $(this).children("#header-icon").attr("src", "img/header/icons/animated/home.gif");
-                if ($(this).hasClass("nav-link-corsi"))
-                    $(this).children("#header-icon").attr("src", "img/header/icons/animated/corsi.gif");
-                if ($(this).hasClass("nav-link-salaprove"))
-                    $(this).children("#header-icon").attr("src", "img/header/icons/animated/salaprove.gif");
-                if ($(this).hasClass("nav-link-media"))
-                    $(this).children("#header-icon").attr("src", "img/header/icons/animated/media.gif");
-                if ($(this).hasClass("nav-link-contatti"))
-                    $(this).children("#header-icon").attr("src", "img/header/icons/animated/contatti.gif");
-            }, function() {
-                if ($(this).hasClass("nav-link-home"))
-                    $(this).children("#header-icon").attr("src", "img/header/icons/static/home.png");
-                if ($(this).hasClass("nav-link-corsi"))
-                    $(this).children("#header-icon").attr("src", "img/header/icons/static/corsi.png");
-                if ($(this).hasClass("nav-link-tour"))
-                    $(this).children("#header-icon").removeClass("bx-tad");
-                if ($(this).hasClass("nav-link-salaprove"))
-                    $(this).children("#header-icon").attr("src", "img/header/icons/static/salaprove.png");
-                if ($(this).hasClass("nav-link-media"))
-                    $(this).children("#header-icon").attr("src", "img/header/icons/static/media.png");
-                if ($(this).hasClass("nav-link-contatti"))
-                    $(this).children("#header-icon").attr("src", "img/header/icons/static/contatti.png");
-            });
-
-            // Add the on scroll effect to the header when scrolling
-            window.onscroll = function() {
-                if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
-                    $("#header").addClass("header-onscroll");
-                    $("#topbar").addClass("onscroll");
-                    $("#logo").attr("id", "logo-onscroll");
-                } else {
-                    $("#header").removeClass("header-onscroll");
-                    $("#topbar").removeClass("onscroll");
-                    $("#logo-onscroll").attr("id", "logo");
-                }
-            };
-
             // Change the separator height according to the header height when the page is loaded or resized
             // to prevent hiding other elements, since the header is set to position: fixed
             $(window).ready(function() {
@@ -227,15 +153,6 @@
                 var headerHeight = document.getElementById('header').offsetHeight;
                 document.getElementById('header-separator').style.height = (headerHeight) + "px";
             }
-
-            // Magnify JS
-            $(document).ready(function() {
-                $('.zoom').magnify({
-                    speed: 200,
-                    magnifiedWidth: 700,
-                    magnifiedHeight: 700
-                });
-            });
         </script>
     </body>
 </div>
