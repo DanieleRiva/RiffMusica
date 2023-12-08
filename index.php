@@ -1,13 +1,3 @@
-<?php
-
-// require("php/utils/db_connect.php");
-// $conn = Connection::Connect("localhost", "root", "", "RiffMusica");
-// mysqli_set_charset($conn, "utf8mb4");
-
-// session_start();
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -45,21 +35,9 @@
     <script src="js/transitions.js"></script>
 
     <!-- 
-        Magnify JS
-     -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/magnify/2.3.3/js/jquery.magnify.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnify/2.3.3/css/magnify.min.css"> -->
-
-    <!-- 
         Footer social icons
      -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- 
-        SweetAlert
-     -->
-    <!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" /> -->
 
     <!-- 
         Google font
@@ -85,8 +63,8 @@
     <body>
 
         <!-- 
-        transition screen
-      -->
+            transition screen
+        -->
         <div class="page-transition transition1 is-active">
             <div id="content">
                 <img src="img/header/logo.webp" id="loading-logo" alt="">
