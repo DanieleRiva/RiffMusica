@@ -59,7 +59,7 @@
             <div class="centered">
                 <div class="section-content">
                     <h1>PRENOTA ORA LA TUA<br>LEZIONE DI <span style="color: rgb(var(--color-secondary));">PROVA GRATUITA</span> SENZA IMPEGNO</h1>
-                    <p>Chiamaci, oppure scrivici su Whatsapp:</p>
+                    <p>Chiamaci, oppure scrivici:</p>
 
                     <div class="lezione-gratuita">
                         <!-- <p>Chiamaci: </p> -->
@@ -68,6 +68,10 @@
                         <a href="https://wa.me/393294686229" class="social-icon social-icon--whatsapp" target="_blank">
                             <i class="fa fa-whatsapp"></i>
                             <div class="tooltip">Whatsapp</div>
+                        </a>
+                        <a href="mailto:riff.scuola@gmail.com" class="social-icon social-icon--email" target="_blank">
+                            <i class="fa fa-envelope"></i>
+                            <div class="tooltip">Email</div>
                         </a>
                     </div>
                 </div>

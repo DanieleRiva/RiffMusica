@@ -20,6 +20,8 @@
             <a class="footer-locations" target="_blank" href="https://maps.app.goo.gl/KZXsEzc9oeDzxjQQ9">● Albese Con Cassano (CO): Strada Vicinale di Nibitt 2</a> <br><br>
             <img src="img/footer/icons/phone.png" width="24px"> <span class="footer-title">Telefono</span> <img src="img/footer/icons/phone.png" width="24px"> <br>
             <a id="phone" href="tel:+393294686229">329 4686 229</a> <br> <br>
+            <img src="img/footer/icons/email.png" width="24px"> <span class="footer-title">Email</span> <img src="img/footer/icons/email.png" width="24px"> <br>
+            <a id="phone" href="mailto:riff.scuola@gmail.com">riff.scuola@gmail.com</a> <br> <br>
             2023 <br>
             All Rights Reserved
         </p>

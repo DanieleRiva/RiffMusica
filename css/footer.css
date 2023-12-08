@@ -118,7 +118,8 @@ footer:hover {
 .social-icon--instagram,
 .social-icon--facebook,
 .social-icon--github,
-.social-icon--whatsapp {
+.social-icon--whatsapp,
+.social-icon--email {
     background: #32322C;
     color: white;
 }
@@ -143,6 +144,10 @@ footer:hover {
 
 .social-icon--whatsapp:hover {
     background: #128C7E;
+}
+
+.social-icon--email:hover {
+    background: #ff4343;
 }
 
 .social-icon--github:hover {
@@ -183,6 +188,15 @@ footer:hover {
 
 .social-icon--whatsapp .tooltip::after {
     border-top-color: #128C7E;
+}
+
+.social-icon--email .tooltip {
+    background: #ff4343;
+    columns: currentColor;
+}
+
+.social-icon--email .tooltip::after {
+    border-top-color: #ff4343;
 }
 
 .social-icon--github .tooltip {
