@@ -199,7 +199,7 @@
                     </p>
 
                     <a href="?page=media" id="a-header" class="icon-animate nav-link-media section-btn">
-                        <img id="header-icon" src="img/header/icons/static/media.png" alt="" width="32px">
+                        <img loading="lazy" id="header-icon" src="img/header/icons/static/media.png" alt="" width="32px">
                         Media
                     </a>
                 </div>
@@ -209,19 +209,19 @@
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide">
-                            <img src="img/live/live01.jpg">
+                            <img loading="lazy" src="img/live/live01.jpg">
                         </div>
                         <!-- <div class="swiper-slide">
                             <img src="img/sedi/sedi02.jpg">
                         </div> -->
                         <div class="swiper-slide">
-                            <img src="img/sedi/sedi07.jpg">
+                            <img loading="lazy" src="img/sedi/sedi07.jpg">
                         </div>
                         <div class="swiper-slide">
-                            <img src="img/sedi/sedi09.jpg">
+                            <img loading="lazy" src="img/sedi/sedi09.jpg">
                         </div>
                         <div class="swiper-slide">
-                            <img src="img/sedi/sedi11.jpg">
+                            <img loading="lazy" src="img/sedi/sedi11.jpg">
                         </div>
                     </div>
 

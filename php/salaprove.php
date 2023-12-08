@@ -36,20 +36,20 @@
 
                 <div class="row">
                     <div class="column">
-                        <a href="img/salaprove/salaprove03.jpg"><img src="img/salaprove/salaprove03.jpg"></a>
-                        <a href="img/salaprove/salaprove01.jpg"><img src="img/salaprove/salaprove01.jpg"></a>
-                        <a href="img/salaprove/salaprove02.jpg"><img src="img/salaprove/salaprove02.jpg"></a>
-                        <a href="img/salaprove/salaprove04.jpg"><img src="img/salaprove/salaprove04.jpg"></a>
+                        <a href="img/salaprove/salaprove03.jpg"><img loading="lazy" src="img/salaprove/salaprove03.jpg"></a>
+                        <a href="img/salaprove/salaprove01.jpg"><img loading="lazy" src="img/salaprove/salaprove01.jpg"></a>
+                        <a href="img/salaprove/salaprove02.jpg"><img loading="lazy" src="img/salaprove/salaprove02.jpg"></a>
+                        <a href="img/salaprove/salaprove04.jpg"><img loading="lazy" src="img/salaprove/salaprove04.jpg"></a>
                     </div>
                     <div class="column">
-                        <a href="img/salaprove/salaprove05.jpg"><img src="img/salaprove/salaprove05.jpg"></a>
-                        <a href="img/salaprove/salaprove06.jpg"><img src="img/salaprove/salaprove06.jpg"></a>
-                        <a href="img/salaprove/salaprove07.jpg"><img src="img/salaprove/salaprove07.jpg"></a>
+                        <a href="img/salaprove/salaprove05.jpg"><img loading="lazy" src="img/salaprove/salaprove05.jpg"></a>
+                        <a href="img/salaprove/salaprove06.jpg"><img loading="lazy" src="img/salaprove/salaprove06.jpg"></a>
+                        <a href="img/salaprove/salaprove07.jpg"><img loading="lazy" src="img/salaprove/salaprove07.jpg"></a>
                     </div>
                     <div class="column">
-                        <a href="img/salaprove/salaprove08.jpg"><img src="img/salaprove/salaprove08.jpg"></a>
-                        <a href="img/salaprove/salaprove09.jpg"><img src="img/salaprove/salaprove09.jpg"></a>
-                        <a href="img/salaprove/salaprove10.jpg"><img src="img/salaprove/salaprove10.jpg"></a>
+                        <a href="img/salaprove/salaprove08.jpg"><img loading="lazy" src="img/salaprove/salaprove08.jpg"></a>
+                        <a href="img/salaprove/salaprove09.jpg"><img loading="lazy" src="img/salaprove/salaprove09.jpg"></a>
+                        <a href="img/salaprove/salaprove10.jpg"><img loading="lazy" src="img/salaprove/salaprove10.jpg"></a>
                     </div>
                     <!--  <div class="column">
                 <img src="img/salaprove/salaprove10.jpg">

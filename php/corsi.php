@@ -31,7 +31,7 @@
                     <div class="docenti">
                         <div class="docente" data-tilt data-tilt-max="8">
                             <a href="?page=docente&docente=paolo">
-                                <img src="img/docenti/chitarra/paolo/paolo01.jpg" alt="">
+                                <img loading="lazy" src="img/docenti/chitarra/paolo/paolo01.jpg" alt="">
                                 <div class="docente-name">
                                     Paolo
                                 </div>
@@ -40,7 +40,7 @@
 
                         <div class="docente" data-tilt data-tilt-max="8">
                             <a href="?page=docente&docente=aron">
-                                <img src="img/docenti/chitarra/aron/aron01.jpg" alt="">
+                                <img loading="lazy" src="img/docenti/chitarra/aron/aron01.jpg" alt="">
                                 <div class="docente-name">
                                     Aron
                                 </div>
@@ -68,7 +68,7 @@
                     <div class="docenti">
                         <div class="docente" data-tilt data-tilt-max="8">
                             <a href="?page=docente&docente=simone">
-                                <img src="img/docenti/basso/simo/simo01.webp" alt="">
+                                <img loading="lazy" src="img/docenti/basso/simo/simo01.webp" alt="">
                                 <div class="docente-name">
                                     Simone
                                 </div>
@@ -97,7 +97,7 @@
                     <div class="docenti">
                         <div class="docente" data-tilt data-tilt-max="8">
                             <a href="?page=docente&docente=ilaria">
-                                <img src="img/docenti/canto/ilaria/ilaria03.jpg" alt="">
+                                <img loading="lazy" src="img/docenti/canto/ilaria/ilaria03.jpg" alt="">
                                 <div class="docente-name">
                                     Ilaria
                                 </div>
@@ -125,7 +125,7 @@
                     <div class="docenti">
                         <div class="docente" data-tilt data-tilt-max="8">
                             <a href="?page=docente&docente=mattia">
-                                <img src="img/docenti/piano/mattia/mattia01.jpg" alt="">
+                                <img loading="lazy" src="img/docenti/piano/mattia/mattia01.jpg" alt="">
                                 <div class="docente-name">
                                     Mattia
                                 </div>
@@ -134,7 +134,7 @@
 
                         <div class="docente" data-tilt data-tilt-max="8">
                             <a href="?page=docente&docente=pietro">
-                                <img style="object-position: left;" src="img/docenti/piano/pietro/pietro01.jpg" alt="">
+                                <img loading="lazy" style="object-position: left;" src="img/docenti/piano/pietro/pietro01.jpg" alt="">
                                 <div class="docente-name">
                                     Pietro
                                 </div>
@@ -162,7 +162,7 @@
                     <div class="docenti">
                         <div class="docente" data-tilt data-tilt-max="8">
                             <a href="?page=docente&docente=edo">
-                                <img style="object-position: right;" src="img/docenti/batteria/edo/edo01.jpg" alt="">
+                                <img loading="lazy" style="object-position: right;" src="img/docenti/batteria/edo/edo01.jpg" alt="">
                                 <div class="docente-name">
                                     Edo
                                 </div>
@@ -171,7 +171,7 @@
 
                         <div class="docente" data-tilt data-tilt-max="8">
                             <a href="?page=docente&docente=christian">
-                                <img src="img/docenti/batteria/christian/christian01.jpg" alt="">
+                                <img loading="lazy" src="img/docenti/batteria/christian/christian01.jpg" alt="">
                                 <div class="docente-name">
                                     Christian
                                 </div>
