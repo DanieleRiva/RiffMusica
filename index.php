@@ -56,6 +56,34 @@
      -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script type="text/javascript">
+        var _iub = _iub || [];
+        _iub.csConfiguration = {
+            "askConsentAtCookiePolicyUpdate": true,
+            "floatingPreferencesButtonDisplay": "bottom-right",
+            "perPurposeConsent": true,
+            "siteId": 3413245,
+            "whitelabel": false,
+            "cookiePolicyId": 24875590,
+            "lang": "it",
+            "cookiePolicyUrl": "https://www.iubenda.com/privacy-policy/24875590",
+            "banner": {
+                "acceptButtonColor": "#F07F1F",
+                "acceptButtonDisplay": true,
+                "backgroundColor": "#222831",
+                "closeButtonRejects": true,
+                "customizeButtonColor": "#393E46",
+                "customizeButtonDisplay": true,
+                "explicitWithdrawal": true,
+                "listPurposes": true,
+                "position": "float-top-center",
+                "showTitle": false
+            }
+        };
+    </script>
+    <script type="text/javascript" src="https://cs.iubenda.com/autoblocking/3413245.js"></script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/beta/iubenda_cs.js" charset="UTF-8" async></script>
 </head>
 
 <div class="body-wrapper">
