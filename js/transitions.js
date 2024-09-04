@@ -19,7 +19,7 @@ window.onload = () => {
 
             setTimeout(() => {
                 window.location.href = target;
-            }, 300);
+            }, 100);
         });
     }
 };

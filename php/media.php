@@ -22,34 +22,34 @@
                         <div class="swiper-wrapper">
                             <!-- Slides -->
                             <div class="swiper-slide">
-                                <img loading="lazy" src="img/sedi/sedi02.jpg">
+                                <img loading="lazy" src="img/sedi/sedi02-small.jpg">
                             </div>
                             <div class="swiper-slide">
-                                <img loading="lazy" src="img/sedi/sedi10.jpg">
+                                <img loading="lazy" src="img/sedi/sedi10-small.jpg">
                             </div>
                             <div class="swiper-slide">
-                                <img loading="lazy" src="img/sedi/sedi07.jpg">
+                                <img loading="lazy" src="img/sedi/sedi07-small.jpg">
                             </div>
                             <div class="swiper-slide">
-                                <img loading="lazy" src="img/sedi/sedi08.jpg">
+                                <img loading="lazy" src="img/sedi/sedi08-small.jpg">
                             </div>
                             <div class="swiper-slide">
-                                <img loading="lazy" src="img/sedi/sedi09.jpg">
+                                <img loading="lazy" src="img/sedi/sedi09-small.jpg">
                             </div>
                             <div class="swiper-slide">
-                                <img loading="lazy" src="img/sedi/sedi15.jpg">
+                                <img loading="lazy" src="img/sedi/sedi15-small.jpg">
                             </div>
                             <div class="swiper-slide">
-                                <img loading="lazy" src="img/sedi/sedi16.jpg">
+                                <img loading="lazy" src="img/sedi/sedi16-small.jpg">
                             </div>
                             <div class="swiper-slide">
-                                <img loading="lazy" src="img/sedi/sedi17.jpg">
+                                <img loading="lazy" src="img/sedi/sedi17-small.jpg">
                             </div>
                             <div class="swiper-slide">
-                                <img loading="lazy" src="img/sedi/sedi18.jpg">
+                                <img loading="lazy" src="img/sedi/sedi18-small.jpg">
                             </div>
                             <div class="swiper-slide">
-                                <img loading="lazy" src="img/sedi/sedi19.jpg">
+                                <img loading="lazy" src="img/sedi/sedi19-small.jpg">
                             </div>
                         </div>
 
@@ -87,22 +87,22 @@
                         <div class="swiper-wrapper">
                             <!-- Slides -->
                             <div class="swiper-slide">
-                                <img loading="lazy" src="img/live/live06.jpg">
+                                <img loading="lazy" src="img/live/live06-small.jpg">
                             </div>
                             <div class="swiper-slide">
-                                <img loading="lazy" src="img/live/live02.jpg">
+                                <img loading="lazy" src="img/live/live02-small.jpg">
                             </div>
                             <div class="swiper-slide">
-                                <img loading="lazy" src="img/live/live03.jpg">
+                                <img loading="lazy" src="img/live/live03-small.jpg">
                             </div>
                             <div class="swiper-slide">
-                                <img loading="lazy" src="img/live/live04.jpg">
+                                <img loading="lazy" src="img/live/live04-small.jpg">
                             </div>
                             <div class="swiper-slide">
-                                <img loading="lazy" src="img/live/live05.jpg">
+                                <img loading="lazy" src="img/live/live05-small.jpg">
                             </div>
                             <div class="swiper-slide">
-                                <img loading="lazy" src="img/live/live01.jpg">
+                                <img loading="lazy" src="img/live/live01-small.jpg">
                             </div>
                         </div>
 

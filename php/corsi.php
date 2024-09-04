@@ -31,7 +31,7 @@
                     <div class="docenti">
                         <div class="docente" data-tilt data-tilt-max="8">
                             <a href="?page=docente&docente=paolo">
-                                <img loading="lazy" src="img/docenti/chitarra/paolo/paolo01.jpg" alt="">
+                                <img loading="lazy" src="img/docenti/chitarra/paolo/paolo01-small.jpg" alt="">
                                 <div class="docente-name">
                                     Paolo
                                 </div>

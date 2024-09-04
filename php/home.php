@@ -19,11 +19,11 @@
                 <div class="swiper-wrapper">
                     <!-- Slides -->
                     <div class="swiper-slide" style="background-image: url('img/live/live06.jpg');"></div>
-                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi05.jpg');"></div>
-                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi03.jpg');"></div>
-                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi01.jpg');"></div>
-                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi19.jpg');"></div>
-                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi10.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi05-small.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi03-small.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi01-small.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi19-small.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('img/sedi/sedi10-small.jpg');"></div>
                 </div>
 
                 <!-- If we need pagination -->
@@ -231,19 +231,19 @@
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide">
-                            <img loading="lazy" src="img/live/live01.jpg">
+                            <img loading="lazy" src="img/live/live01-small.jpg">
                         </div>
                         <!-- <div class="swiper-slide">
                             <img src="img/sedi/sedi02.jpg">
                         </div> -->
                         <div class="swiper-slide">
-                            <img loading="lazy" src="img/sedi/sedi07.jpg">
+                            <img loading="lazy" src="img/sedi/sedi07-small.jpg">
                         </div>
                         <div class="swiper-slide">
-                            <img loading="lazy" src="img/sedi/sedi09.jpg">
+                            <img loading="lazy" src="img/sedi/sedi09-small.jpg">
                         </div>
                         <div class="swiper-slide">
-                            <img loading="lazy" src="img/sedi/sedi11.jpg">
+                            <img loading="lazy" src="img/sedi/sedi11-small.jpg">
                         </div>
                     </div>
 
