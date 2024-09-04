@@ -165,6 +165,22 @@ body {
     margin-bottom: 3px;
 }
 
+.open-days {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding-inline: 5rem;
+}
+
+.open-days img {
+    transition: all .3s;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 90vw;
+}
+
 .illustrations {
     margin-top: 20px;
     display: flex;
@@ -302,6 +318,10 @@ body {
         width: 90%;
     }
 
+    .open-days img {
+        width: 24rem;
+    }
+
     .home-map {
         height: 450px;
     }
@@ -323,6 +343,14 @@ body {
 
     .centered p {
         font-size: 17px;
+    }
+
+    #open-days {
+        margin-top: 10rem;
+    }
+
+    .open-days {
+        padding: 5rem;
     }
 
     .media {

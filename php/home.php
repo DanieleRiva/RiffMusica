@@ -42,9 +42,27 @@
                     <h1>Associazione <br> Musicale <span style="color: rgb(var(--color-secondary));">RIFF</span> </h1>
                     <p>Ti diamo il benvenuto alla <span style="color: rgb(var(--color-secondary));">RIFF</span>, la nuova scuola di musica nata a Cassago Brianza.</p>
 
-                    <a href="#section-scroll" id="a-header" class="section-btn">
+                    <a href="#open-days" id="a-header" class="section-btn">
                         Esplora
                     </a>
+                </div>
+
+                <div id="open-days" class="section-content">
+                    <h1>I Nostri <span style="color: rgb(var(--color-secondary));">Open Day</span> </h1>
+
+                    <div class="open-days">
+                        <a href="img/home/openDay/dolzago-2-24-small.jpg" target="_blank">
+                            <img src="img/home/openDay/dolzago-2-24-small.jpg" alt="Immagine Open Day Riff Musica Cassago">
+                        </a>
+
+                        <a href="img/home/openDay/dolzago-3-24-small.jpg" target="_blank">
+                            <img src="img/home/openDay/dolzago-3-24-small.jpg" alt="Immagine Open Day Riff Musica Cassago">
+                        </a>
+
+                        <a href="img/home/openDay/cassago-2024-small.jpg" target="_blank">
+                            <img src="img/home/openDay/cassago-2024-small.jpg" alt="Immagine Open Day Riff Musica Cassago">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
