@@ -53,7 +53,7 @@
         </div>
 
         <div class="legal-info">
-            MUSIC MIND - ASSOCIAZIONE MUSICALE ● 93017290136
+            MUSIC MIND - ASSOCIAZIONE MUSICALE ● 93017290136 ● Via Roma 21/A
         </div>
     </div>
 </footer>
