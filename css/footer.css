@@ -204,3 +204,7 @@ footer:hover {
     columns: currentColor;
     text-align: center;
 }
+
+.legal-info {
+    color: gray;
+}
