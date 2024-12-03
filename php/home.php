@@ -48,19 +48,11 @@
                 </div>
 
                 <div id="open-days" class="section-content">
-                    <h1>I Nostri <span style="color: rgb(var(--color-secondary));">Open Day</span> </h1>
+                    <h1>Scopri il <span style="color: rgb(var(--color-secondary));">Christmas Pass</span>!</h1>
 
                     <div class="open-days">
-                        <a href="img/home/openDay/dolzago-2-24-small.jpg" target="_blank">
-                            <img src="img/home/openDay/dolzago-2-24-small.jpg" alt="Immagine Open Day Riff Musica Cassago">
-                        </a>
-
-                        <a href="img/home/openDay/dolzago-3-24-small.jpg" target="_blank">
-                            <img src="img/home/openDay/dolzago-3-24-small.jpg" alt="Immagine Open Day Riff Musica Cassago">
-                        </a>
-
-                        <a href="img/home/openDay/cassago-2024-small.jpg" target="_blank">
-                            <img src="img/home/openDay/cassago-2024-small.jpg" alt="Immagine Open Day Riff Musica Cassago">
+                        <a href="img/home/christmasPass.jpg" target="_blank">
+                            <img src="img/home/christmasPass.jpg" alt="Immagine Christmas Pass RIFF Musica sconto per offerta Natale Natalizia">
                         </a>
                     </div>
                 </div>
