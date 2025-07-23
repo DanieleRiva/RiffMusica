@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/corsi.css">
     <link rel="stylesheet" href="css/docente.css">
     <link rel="stylesheet" href="css/contatti.css">
+    <link rel="stylesheet" href="css/landing.css">
 
     <!-- 
         jquery
@@ -116,7 +117,8 @@
             "docente",
             "media",
             "contatti",
-            "registro"
+            "registro",
+            "landing"
         ];
 
         $page = isset($_GET["page"]) ? $_GET["page"] : "index";

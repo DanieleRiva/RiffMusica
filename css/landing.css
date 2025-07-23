@@ -1,0 +1,21 @@
+.section-one {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 92px;
+}
+
+#landing-logo {
+    width: 448px;
+}
+
+.courses-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+}
+
+.courses-icons>img {
+    width: 64px;
+}
