@@ -47,7 +47,7 @@
                     </a>
                 </div>
 
-                <div id="open-days" class="section-content">
+                <!-- <div id="open-days" class="section-content">
                     <h1>Scopri il <span style="color: rgb(var(--color-secondary));">Christmas Pass</span>!</h1>
 
                     <div class="open-days">
@@ -55,7 +55,7 @@
                             <img src="img/home/christmasPass.jpg" alt="Immagine Christmas Pass RIFF Musica sconto per offerta Natale Natalizia">
                         </a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 

@@ -140,6 +140,15 @@
                                 </div>
                             </a>
                         </div>
+
+                        <div class="docente" data-tilt data-tilt-max="8">
+                            <a href="?page=docente&docente=fausto">
+                                <img loading="lazy" style="object-position: left;" src="img/docenti/piano/fausto/fausto01.jpeg" alt="">
+                                <div class="docente-name">
+                                    Fausto
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -170,10 +179,28 @@
                         </div>
 
                         <div class="docente" data-tilt data-tilt-max="8">
-                            <a href="?page=docente&docente=christian">
-                                <img loading="lazy" src="img/docenti/batteria/christian/christian01.jpg" alt="">
+                            <a href="?page=docente&docente=giovanni">
+                                <img loading="lazy" src="img/docenti/batteria/giovanni/giovanni01.jpeg" alt="">
                                 <div class="docente-name">
-                                    Christian
+                                    Giovanni
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="docente" data-tilt data-tilt-max="8">
+                            <a href="?page=docente&docente=john">
+                                <img loading="lazy" src="img/docenti/batteria/john/john01.jpeg" alt="">
+                                <div class="docente-name">
+                                    John
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="docente" data-tilt data-tilt-max="8">
+                            <a href="?page=docente&docente=franco">
+                                <img loading="lazy" src="img/docenti/batteria/franco/franco01.png" alt="">
+                                <div class="docente-name">
+                                    Franco
                                 </div>
                             </a>
                         </div>

@@ -10,15 +10,38 @@
 <body>
     <div class="body-wrapper">
 
-        <div class="section-one" style="margin-top: 5rem;">
-            <img src="../img/header/logo.webp" id="landing-logo" alt="">
+        <div class="section-one hero-landing" style="margin-top: 5rem;">
+            <img src="../img/landing/logo.webp" id="landing-logo" alt="">
 
             <div class="courses-icons">
-                <img src="https://img.icons8.com/?size=100&id=56029&format=png&color=000000" alt="">
-                <img src="https://img.icons8.com/?size=100&id=65464&format=png&color=000000" alt="">
-                <img src="https://img.icons8.com/?size=100&id=56018&format=png&color=000000" alt="">
-                <img src="https://img.icons8.com/?size=100&id=56024&format=png&color=000000" alt="">
+                <img src="../img/landing/long_icons/piano.png" alt="">
+                <img src="../img/landing/long_icons/chitarra.png" alt="">
+                <img src="../img/landing/long_icons/basso.png" alt="">
+                <img src="../img/landing/long_icons/batteria.png" alt="">
+                <img src="../img/landing/long_icons/canto.png" alt="">
             </div>
+        </div>
+
+        <div class="section-paragraph">
+
+            <h1>🎸 "Scopri il tuo talento musicale"</h1>
+            <p>
+                Insegnamo musica con passione! <br> <br>
+
+                👉 Prenota ora la tua lezione gratuita <br>
+                Dai primi accordi ai concerti live: <br>
+                i nostri corsi sono pensati su misura, con insegnanti qualificati e un approccio pratico e coinvolgente. <br> <br>
+
+                ✅ Lezione gratuita senza impegno <br>
+                ✅ Insegnanti professionisti e appassionati <br>
+                ✅ Sedi attrezzate in Brianza <br>
+                ✅ Approccio moderno e su misura <br>
+                ✅ Eventi live, band studentesche e laboratori <br> <br>
+
+                "Condividiamo la musica, coltiviamo il talento." <br> <br>
+
+                Prenota ora la tua lezione gratuita nella sede più vicina e inizia a fare musica con noi!
+            </p>
         </div>
 
         <div class="section-two" id="section-scroll">
@@ -91,6 +114,35 @@
 
             <div class="centered">
                 <div class="section-content">
+                    <h1>PER QUALSIASI <span style="color: rgb(var(--color-secondary));">INFORMAZIONE</span></h1>
+                    <p>Chiamaci, oppure scrivici:</p>
+
+                    <div class="lezione-gratuita">
+                        <!-- <p>Chiamaci: </p> -->
+                        <a id="a-header" class="section-btn" href="tel:+393294686229">3294686229</a>
+                        <!-- <p>Oppure: </p> -->
+                        <a href="https://wa.me/393294686229" class="social-icon social-icon--whatsapp" target="_blank">
+                            <i class="fa fa-whatsapp"></i>
+                            <div class="tooltip">Whatsapp</div>
+                        </a>
+                        <a href="mailto:riff.scuola@gmail.com" class="social-icon social-icon--email" target="_blank">
+                            <i class="fa fa-envelope"></i>
+                            <div class="tooltip">Email</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-one" id="section-scroll">
+            <div class="custom-shape-divider-top-1697795202">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
+
+            <div class="centered">
+                <div class="section-content">
                     <h1>LE NOSTRE <span style="color: rgb(var(--color-secondary));">SEDI</span></h1>
 
                     <div class="maps">
@@ -113,6 +165,37 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="section-two" id="section-scroll">
+            <div class="custom-shape-divider-top-1697795202">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
+
+            <div class="centered">
+                <div class="section-content">
+                    <h1>PER QUALSIASI <span style="color: rgb(var(--color-secondary));">INFORMAZIONE</span></h1>
+                    <p>Chiamaci, oppure scrivici:</p>
+
+                    <div class="lezione-gratuita">
+                        <!-- <p>Chiamaci: </p> -->
+                        <a id="a-header" class="section-btn" href="tel:+393294686229">3294686229</a>
+                        <!-- <p>Oppure: </p> -->
+                        <a href="https://wa.me/393294686229" class="social-icon social-icon--whatsapp" target="_blank">
+                            <i class="fa fa-whatsapp"></i>
+                            <div class="tooltip">Whatsapp</div>
+                        </a>
+                        <a href="mailto:riff.scuola@gmail.com" class="social-icon social-icon--email" target="_blank">
+                            <i class="fa fa-envelope"></i>
+                            <div class="tooltip">Email</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <br><br><br><br>
         </div>
     </div>
 

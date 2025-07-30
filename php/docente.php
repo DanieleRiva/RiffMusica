@@ -563,9 +563,8 @@
         </div>
 
     <?php
-    } else if ($_GET["docente"] == 'christian') {
+    } else if ($_GET["docente"] == 'fausto') {
     ?>
-
         <div class="section-one">
             <div class="centered">
 
@@ -574,17 +573,11 @@
                     <div class="docente-imgs">
 
                         <div class="section-content">
-                            <h1><span style="color: rgb(var(--color-secondary));">Christian</span></h1>
+                            <h1><span style="color: rgb(var(--color-secondary));">Fausto Bisantis</span></h1>
 
                             <div class="row">
                                 <div class="column">
-                                    <img src="img/docenti/batteria/christian/christian01.jpg">
-                                </div>
-                                <div class="column">
-                                    <img src="img/docenti/batteria/christian/christian03.jpg">
-                                </div>
-                                <div class="column">
-                                    <img src="img/docenti/batteria/christian/christian02.jpg">
+                                    <img src="img/docenti/piano/fausto/fausto01.jpeg">
                                 </div>
                             </div>
 
@@ -598,28 +591,35 @@
                         <div class="section-content">
                             <h5><span style="color: rgb(var(--color-secondary));">Biografia</span></h5>
                             <p>
-                                All'età di quindici anni ho iniziato a prendere le prime lezioni di batteria con il maestro Ivan Gazzi,
-                                con la quale ho studiato privatamente dal 2011 al 2020, in questi anni fondamentali per la mia formazione
-                                ho avuto la possibilità di imparare le basi dello strumento, sviluppare la passione per la musica e spingermi
-                                ad apprendimenti sempre più avanzati. <br><br>
-                                Dal 2016 sempre grazie al maestro ho avuto la possibilità di entrare gradualmente nel mondo dell'insegnamento 
-                                attraverso la scuola MusicArt con la quale ho lavorato fino al 2020 quando le nostre strade si sono separate. <br><br>
-                                Contemporaneamente in quegli anni ho avuto la possibilità di svolgere altre esperienze: dal 2016 al 2018 ho gestito e 
-                                organizzato il “Garden cafè Music Contest”, un concorso per band emergenti della zona, nel 2019 ho fatto parte 
-                                dell'organizzazione del “Rock in Abbadia”, e dal 2019 insegno nella scuola musica “I Polifonici di Maresso”. <br><br>
-                                Dal 2020 ho avuto la possibilità di studiare con il maestro Maxx Furian fino a Giugno 2023, durante questi tre anni ho avuto 
-                                la possibilità di partecipare a masterclass e laboratori con batteristi di livello internazionale: Peter Erskine, 
-                                Federico Paulovich, Ellade Bandini, Alex “Pacho” Rossi, Phill Merr, Ricky Quagliato, Beppe Basile, Mauricio Melo, 
-                                Nicola Angelucci, Stefano Pisetta. <br><br>
-                                Nel 2021 ho conseguito la Laurea in Scienze dell'Educazione, presentando la tesi 
-                                “Il percorso formativo del Batterista e le sue implicazioni Pedagogiche”, concludendo un percorso universitario che non 
-                                solo mi ha formato come persona ed educatore ma mi ha fornito un grosso bagaglio pedagogico che influenza attivamente 
-                                i miei metodi di insegnamento. <br><br>
-                                Dal Settembre 2022 insegno nella scuola di musica “Riff”. <br><br>
-                                Nel corso della mia attività musicale ho suonato con diverse band su diversi palchi sperimentando diversi generi, 
-                                partendo dall'Heavy/Trash Metal arrivando al cantautorato Italiano. <br><br>
-                                Attualmente faccio parte del progetto Over (Indie/Pop-Rock Italiano) con la quale ho suonato sul palco
-                                dell'Ariston in occasione della finale del concorso “Sanremo Rock”.
+                                Musicista, compositore, musicologo e giornalista. Inizia a studiare pianoforte a 12 anni, chitarra a 15, militando in diverse formazioni, tra Catanzaro e Roma. Ha studiato alla Scuola di Musica Popolare di Testaccio, Pianoforte, sintetizzatori, armonia e composizione con i maestri: Carlo Mezzanotte (Syntaxis e Indaco) e Giovanni Guaccero; arrangiamento e produzione musicale con Stefano Cenci (Tastierista di Luca Barbarossa); canto con il pianoforte con il Maestro Maurizio Carnelli (Scuole civiche di Milano), armonia jazz e improvvisazione con Davide Santorsola. Da anni impegnato nella ricerca stilistica di nuovi territori musicali, attingendo alla multiformità dei diversi tipi di repertori; dal Blues alla psichedelia, dal funk al progressive secondo una concezione puramente sinfonica e orchestrale all’interno del rock.
+                                <br><br>
+                                Dal 2008 ha intrapreso la sua carriera solista, accompagnando la sua vena puramente rock ad un sapiente indirizzo orchestrale, retaggio della sua formazione classica. Non mancano le esplorazioni nei territori della sperimentazione, specie quella elettronico-orchestrale, grazie a un sapiente utilizzo dei sintetizzatori analogici e dei sequencer digitali di ultima generazione. Ha realizzando tre album con la lanterecords e Medialand, Nimbysound e la Black Horse e due interamente autoprodotti.
+                                <br><br>
+                                Il suo lavoro è stato inserito all’interno del libro di Massimo Salari; Rock Progressivo italiano 1980-2013, edito da Arcana Edizioni.
+                                <br><br>
+                                Nel 2022 pubblica il suo primo manuale di Storia della musica contemporanea: La corda di Aries, dall’espressionismo alla psichedelia, edito da Porto Seguro editore, che contiene una preziosa intervista al maestro Franco Battiato nel 2003, basata proprio sulla sperimentazione musicale del 900.
+                                <br><br>
+                                Faust & Malchut Orchestra è la band che, dal 2012 al 2019, ha portato in scena il suo repertorio strizzando l'occhio al progressive e all'istrionismo zappiano degli anni'70, attraverso la commistione di suoni analogici e tecnologie moderne e un ripiegamento verso i territori del blues e del funky.
+                                <br><br>
+                                Tra le diverse iniziative a cui la band ha partecipato, in giro per L’Italia e l’Europa: TuoDio Festival (Roma), dove hanno condiviso il palco con gli Effemme di Filippo Marchegiani (Banco del Mutuo Soccorso); Peppino Impastato Festival a P.zzo San Gervasio (Potenza) come opening ai Kutso; Sanremo Rock, Prog Night a Cassano d’Adda (Milano), Museo del Rock di Catanzaro come opening act a Michi Dei Rossi (Le Orme), Art night Berlino, House concert in Prague. Da solista Bisantis ha partecipato anche Musica contro le mafie, Not(te) d’autore a Catanzaro, come opening a Luigi “Grechi” De Gregori, Tour Music Fest, Non fermiamo la musica; Maratona musicale a cura dell’ANMI (Associazione Nazionale Musicisti Italiani).
+                                Dal 2017 svolge il ruolo di insegnante di pianoforte, classico e moderno, introduzione all’armonia tradizionale e improvvisazione. Dal 2022 insegna musica e storia delle culture musicale presso la scuola secondaria di I grado.
+                                <br><br>
+                                Discografia: <br>
+                                - From The Aisle Graig (2010); Lanterecords <br>
+                                - Sketches of tunes (2010) Piano Solo; Malchut Home studio <br>
+                                - Several orchestral fairlights (2011); Malchut Home studio <br>
+                                - 20.000 Windows (2013): Lanterecords/Medialand studio <br>
+                                - The logical door (2015): Nimbysound/Medialand (Faust & Malchut Orchestra) <br>
+                                - Faust’thz Pavement à lumiere (2018) (elettroorcestral concept album) <br>
+                                - The Nothingman (2021) (solo in vinile e digitale) <br><br>
+
+                                Fausto Bisantis tel <a href="tel:+39 3334043083">3334043083</a> <br>
+                                Contatto Skype: faustobisantis <br>
+                                e-mail: <a target="_blank" href="mailto:info.faustobisantis@gmail.com">info.faustobisantis@gmail.com</a> <br>
+                                <a target="_blank" href="https://www.facebook.com/fausto.bisantis?ref=tn_tnmn">https://www.facebook.com/fausto.bisantis?ref=tn_tnmn</a><br>
+                                <a target="_blank" href="https://www.facebook.com/pages/Faust-The-Malchut-Orchestra/1395729780664425">https://www.facebook.com/pages/Faust-The-Malchut-Orchestra/1395729780664425</a> <br>
+                                <a target="_blank" href="https://www.soundcloud.com/fausto-bisantis">www.soundcloud.com/fausto-bisantis</a> <br>
+
                             </p>
                         </div>
 
@@ -631,8 +631,170 @@
         </div>
 
     <?php
-    } else
+    } else if ($_GET["docente"] == 'giovanni') {
     ?>
+    <?php
+    } else if ($_GET["docente"] == 'john') {
+    ?>
+        <div class="section-one">
+            <div class="centered">
+
+                <div class="docente-section">
+
+                    <div class="docente-imgs">
+
+                        <div class="section-content">
+                            <h1><span style="color: rgb(var(--color-secondary));">John</span></h1>
+
+                            <div class="row">
+                                <div class="column">
+                                    <img src="img/docenti/batteria/john/john01.jpeg">
+                                </div>
+                            </div>
+
+                            <div class="spacer"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="docente-info">
+
+                        <div class="section-content">
+                            <h5><span style="color: rgb(var(--color-secondary));">Biografia</span></h5>
+                            <p>
+                                Sono nato a Como nel 1989, e ho iniziato a suonare la chitarra come primo strumento all’età
+                                di sette anni sotto la guida di mio padre. Ma è stato guardando il suo batterista suonare che mi sono
+                                interessato alla batteria, e fu subito una rivelazione! Nel periodo delle scuole superiori, da
+                                autodidatta, suonai in diverse formazioni “Punk”, “Metal” e “Alternative” della zona, esibendomi in locali, feste
+                                private e rassegne musicali. <br><br>
+                                E’ a 21 anni che ebbi l’opportunità di entrare a far parte della Metal band “Ephyra”, e divenni
+                                così il loro
+                                nuovo batterista.
+                                Dal quel momento prese il via un lungo percorso musicale: la registrazione di tre album con
+                                distribuzione internazionale e alcuni singoli; dieci anni di concerti in Italia e all’estero, sia in
+                                club che in festival openair,
+                                dividendo il palco con alcune leggende del Metal come: “Satyricon”, “Carcass”, “Finntroll”,
+                                “Pestilence”,
+                                “Arkona”, “TYR” e altri; diverse dirette radiofoniche e videoclip. <br><br>
+                                Parallelamente all'attività musicale, ho proseguito la mia formazione didattica conseguendo il diploma in batteria
+                                “Yamaha Music Grades” di “Yamaha Music Foundation” sotto la guida del Maestro Alex
+                                Battini De Barreiro, con il quale ho potuto approfondire la teoria, affinare la tecnica ed
+                                esplorare gli stili Jazz e Latin. <br><br>
+                                Nel corso degli anni ho avuto il piacere di collaborare in studio o dal vivo come session
+                                drummer con varie formazioni e artisti: “R.d.G. Rumore di gente” (Folk), “Dream Lake” (Hard
+                                Rock), “Cristoni D’Avena” (Cartoon Rock), “Rikko (cantautore)”, “Potage” (Punk), “Germano
+                                Lanzoni” (cabaret). <br><br>
+                                Attualmente suono nei “Dumanbass” (musica tradizionale/teatro canzone) e nei “The 80’s &
+                                John” (Heavy Rock). <br><br>
+                                Amo suonare la batteria nel “contesto” della musica, anche attingendo elementi dalla mia
+                                formazione
+                                culturale. Cerco inoltre di ispirare i miei allievi attraverso la conoscenza della storia dello
+                                strumento
+                                e perseguendo una costante ricerca nell’ambito della tecnica, finalizzata ad una esecuzione
+                                efficace.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    <?php
+    } else if ($_GET["docente"] == 'franco') {
+    ?>
+        <div class="section-one">
+            <div class="centered">
+
+                <div class="docente-section">
+
+                    <div class="docente-imgs">
+
+                        <div class="section-content">
+                            <h1><span style="color: rgb(var(--color-secondary));">Franco</span></h1>
+
+                            <div class="row">
+                                <div class="column">
+                                    <img src="img/docenti/batteria/franco/franco01.png">
+                                </div>
+                            </div>
+
+                            <div class="spacer"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="docente-info">
+
+                        <div class="section-content">
+                            <h5><span style="color: rgb(var(--color-secondary));">Biografia</span></h5>
+                            <p>
+                            <h5>- Batterista professionista indipendente -</h5> <br>
+                            <h5>Collaborazioni Live con:</h5>
+                            Marco Carta - Michelle Hunziker – Raf – Jovanotti - Ronnie Jones – Pago -
+                            Joyce Yuille - Julia St.Louis –
+                            The Sisters - Terry Robb – Judith Emeline –
+                            Davide Van de Sfroos -Luisa Corna – Davide de Marinis Umberto Smaila -
+                            Gerry Calà - Franco Oppini - I Luf –
+                            Leonardo Manera – Gabriele Cirilli – Sergio Muñiz – Alberto Fortis – Shel
+                            Shapiro.<br> <br>
+                            <h5>Trasmissioni Tv:</h5>
+                            Bravo Bravissimo (Rete4) – Passaparola (Canale5) – E L’Italia racconta
+                            (Rai1) – Le Meteore (Italia1) – Canta e vinci (Italia1) Chi c’è c’è....chi non c’è
+                            ciao!!! (TSI Canale 1 Svizzera Italiana) – Mi gioco la tv (Trs) - <br> <br>
+                            <h5>Discografia:</h5>
+                            Ronnie Jones & Soul Sindicate “Bang”
+                            Ambra Marie “Via da te”
+                            Pago “Aria di Settembre”
+                            Con il Gruppo folk " I Luf" "Quasi Luf" "Ocio ai Luf" "Bala e fà balà" "Aris del
+                            Paradis" con la partecipazione di Flavio Oreglio" e il "Il fiore del Sambuco"
+                            Jp. Asplund “Rigged”
+                            Alessandro Bosco “Tra sogno e realtà
+                            NoMas”"La nuova influenza"
+                            Benedetta Fedel “ Una giornata di sole”
+                            Fabio del Toro"Vola Daniela"
+                            Rosso porpora "Il mare va"
+                            Formadonda Feat. Fiordaliso ”Uomini”
+                            Andrea Casta” Room 80” <br> <br>
+                            <h5>.. .. DIDATTICA.. ..</h5>
+                            Dal 2014 <br>
+                            Insegno presso l’Associazione Music Team a Bellusco<br><br>
+                            Dal 2012<br>
+                            Corsi di avvicinamento allo strumento (Batteria) alle Scuole Medie Statali dell’Istituto G.Marconi
+                            di Concorezzo<br>
+                            <a href="http://www.icconcorezzo.brianzaest.it/contenuti/home.aspx">http://www.icconcorezzo.brianzaest.it/contenuti/home.aspx</a> <br><br>
+                            (Dal 2010) Insegno presso il “WORLD MUSIC STUDIO” a Pessano con Bornago (Mi) <br>
+                            <a href="http://www.worldmusicstudio.it/">http://www.worldmusicstudio.it/</a> <br><br>
+                            (Dal 2011) Insegno presso Il “MAT (Movimento Artistico Ticinese)”a Lugano (CH) <br>
+                            <a href="http://www.m-a-t.ch/">http://www.m-a-t.ch/</a> <br><br>
+                            (Dal 2004) Insegno privatamente a Missaglia (LC) <br> <br> 
+
+                            <h6>. .. HO INSEGNATO.. ..</h6>
+                            Presso "Musx" Pozzuolo Martesana <br> 
+                            Presso "Pentasound" Pantigliate (Mi) <br> 
+                            Presso "Lo sbaraglio" Vimercate (MI) <br> 
+                            Presso “Gerry Music” Barzanò (Lc) <br> 
+                            Presso “Magilla” Rho (Mi) <br>  <br> 
+                            <h6>. .. ALTRE COLLABORAZIONI.. ..</h6>
+                            (1996) <br>
+                            Dimostratore per gli strumenti Roland per la ROLAND ITALIA. <br> <br>
+                            (Dal 2005) <br>
+                            Sono Endorser dei piatti Ufip <br> <br>
+                            (Dal 2010) <br>
+                            Sono Endorser delle batterie SONOR (Eko music group) <br> <br>
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    <?php
+    } else {
+    } ?>
 
 </body>
 
