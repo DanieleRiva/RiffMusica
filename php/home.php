@@ -47,15 +47,15 @@
                     </a>
                 </div>
 
-                <!-- <div id="open-days" class="section-content">
-                    <h1>Scopri il <span style="color: rgb(var(--color-secondary));">Christmas Pass</span>!</h1>
+                <div id="open-days" class="section-content">
+                    <h1>Scopri l'<span style="color: rgb(var(--color-secondary));">Open Day</span>!</h1>
 
                     <div class="open-days">
-                        <a href="img/home/christmasPass.jpg" target="_blank">
-                            <img src="img/home/christmasPass.jpg" alt="Immagine Christmas Pass RIFF Musica sconto per offerta Natale Natalizia">
+                        <a href="img/home/openDay/openDay2.jpg" target="_blank">
+                            <img src="img/home/openDay/openDay2.jpg" alt="Immagine Open Day RIFF Musica">
                         </a>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
 

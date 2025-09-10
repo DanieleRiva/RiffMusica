@@ -42,6 +42,16 @@
 
                 Prenota ora la tua lezione gratuita nella sede più vicina e inizia a fare musica con noi!
             </p>
+
+            <div id="open-days" class="section-content">
+                <h1>Scopri l'<span style="color: rgb(var(--color-secondary));">Open Day</span>!</h1>
+
+                <div class="open-days">
+                    <a href="img/home/openDay/openDay2.jpg" target="_blank">
+                        <img src="img/home/openDay/openDay2.jpg" alt="Immagine Open Day RIFF Musica">
+                    </a>
+                </div>
+            </div>
         </div>
 
         <div class="section-two" id="section-scroll">
