@@ -48,11 +48,11 @@
                 </div>
 
                 <div id="open-days" class="section-content">
-                    <h1>Scopri l'<span style="color: rgb(var(--color-secondary));">Open Day</span>!</h1>
+                    <h1>Scopri il <span style="color: rgb(var(--color-secondary));">Christmas</span> pass!</h1>
 
                     <div class="open-days">
-                        <a href="img/home/openDay/openDay2.jpg" target="_blank">
-                            <img src="img/home/openDay/openDay2.jpg" alt="Immagine Open Day RIFF Musica">
+                        <a href="img/home/christmasPass.jpg" target="_blank">
+                            <img loading="lazy" src="img/home/christmasPass.jpg" alt="Immagine Open Day RIFF Musica">
                         </a>
                     </div>
                 </div>
