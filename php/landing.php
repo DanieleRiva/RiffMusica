@@ -44,11 +44,14 @@
             </p>
 
             <div id="open-days" class="section-content">
-                <h1>Scopri l'<span style="color: rgb(var(--color-secondary));">Open Day</span>!</h1>
+                <h1>Scopri gli <span style="color: rgb(var(--color-secondary));">Open Days</span>!</h1>
 
                 <div class="open-days">
-                    <a href="<?= asset('img/home/openDay/openDay2.jpg') ?>" target="_blank">
-                        <img src="<?= asset('img/home/openDay/openDay2-small.jpg') ?>" width="1200" height="846" decoding="async" alt="Locandina Open Day RIFF Musica">
+                    <a href="<?= asset('img/home/openDay/19settembre.jpg') ?>" target="_blank">
+                        <img src="<?= asset('img/home/openDay/19settembre-small.jpg') ?>" width="900" height="1350" decoding="async" alt="Locandina Open Day RIFF Musica - 19 settembre">
+                    </a>
+                    <a href="<?= asset('img/home/openDay/20settembre.jpg') ?>" target="_blank">
+                        <img src="<?= asset('img/home/openDay/20settembre-small.jpg') ?>" width="900" height="1274" decoding="async" alt="Locandina Open Day RIFF Musica - 20 settembre">
                     </a>
                 </div>
             </div>
