@@ -47,8 +47,8 @@
                 <h1>Scopri l'<span style="color: rgb(var(--color-secondary));">Open Day</span>!</h1>
 
                 <div class="open-days">
-                    <a href="img/home/openDay/openDay2.jpg" target="_blank">
-                        <img src="img/home/openDay/openDay2.jpg" alt="Immagine Open Day RIFF Musica">
+                    <a href="<?= asset('img/home/openDay/openDay2.jpg') ?>" target="_blank">
+                        <img src="<?= asset('img/home/openDay/openDay2-small.jpg') ?>" width="1200" height="846" decoding="async" alt="Locandina Open Day RIFF Musica">
                     </a>
                 </div>
             </div>

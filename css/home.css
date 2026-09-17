@@ -170,17 +170,32 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 2rem;
+    align-items: flex-start;
+    gap: 1.5rem;
     flex-wrap: wrap;
-    padding-inline: 5rem;
+    padding-inline: 1rem;
+    margin-top: 2rem;
+}
+
+.open-days a {
+    display: block;
+    flex: 1 1 18rem;
+    max-width: 24rem;
+}
+
+/* Quando la locandina e' una sola le diamo piu' spazio (es. landing) */
+.open-days a:only-child {
+    flex-basis: 100%;
+    max-width: 38rem;
 }
 
 .open-days img {
     transition: all .3s;
     border-radius: 1rem;
     cursor: pointer;
-    width: 90vw;
-    height: 100%;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .illustrations {
@@ -320,10 +335,6 @@ body {
         width: 90%;
     }
 
-    .open-days img {
-        width: 38rem;
-    }
-
     .home-map {
         height: 450px;
     }
@@ -352,7 +363,12 @@ body {
     }
 
     .open-days {
-        padding: 5rem;
+        padding-inline: 5rem;
+        margin-top: 3rem;
+    }
+
+    .open-days a {
+        max-width: 28rem;
     }
 
     .media {

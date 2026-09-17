@@ -104,6 +104,7 @@
 
         <?php
 
+        include("php/asset.php");
         include("php/header.php");
 
         ?>
